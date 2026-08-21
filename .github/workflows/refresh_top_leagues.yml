@@ -23,6 +23,8 @@ jobs:
           python-version: '3.11'
 
       - name: Run filter script
+        env:
+          PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
         run: python filter_top_leagues.py
 
       - name: Check for changes

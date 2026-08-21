@@ -289,10 +289,11 @@ def ts_to_spain(ts_unix):
 
 
 def main():
-    url = (
-        "https://raw.githubusercontent.com/srhady/bingstream"
-        "/refs/heads/main/playlist.json"
-    )
+    # Read URL from environment variable (set via GitHub Secrets)
+    url = os.environ.get("PLAYLIST_URL")
+    if not url:
+        print("ERROR: PLAYLIST_URL environment variable not set", file=sys.stderr)
+        sys.exit(1)
 
     print("⏳  Fetching playlist…", file=sys.stderr)
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
