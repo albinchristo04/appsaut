@@ -1,2 +1,0 @@
-# appsaut
-blogger-autopost
