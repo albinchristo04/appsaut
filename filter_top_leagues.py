@@ -5,6 +5,7 @@ converts all times to Spain timezone, and outputs clean JSON.
 """
 
 import json
+import os
 import re
 import sys
 import urllib.request
