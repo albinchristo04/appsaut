@@ -216,8 +216,6 @@ EXCLUDE_KEYWORDS = [
     "premier league 2",     # U21/reserve league
     "youth championship",   # Youth
     "women",                # Women's (unless explicitly major)
-    "femenil",              # Liga MX Femenil
-    "femenino",             # Spanish/Portuguese women's
     "u19", "u20", "u21", "u23",
     "friendly", "friendlies",
     "womens", "frauen",     # Women's leagues (less common)
@@ -283,68 +281,12 @@ def find_sport(match):
 
 
 def ts_to_spain(ts_unix):
-    """Convert Unix timestamp → (display string, ISO 8601) with correct tz label."""
+    """Convert Unix timestamp → Spain local datetime string."""
     if not ts_unix:
-        return None, None
+        return None
     dt_utc = datetime.fromtimestamp(int(ts_unix), tz=timezone.utc)
-    offset = spain_offset(dt_utc)
-    dt_spain = dt_utc.astimezone(offset)
-    tz_label = "CEST" if offset == SPAIN_TZ else "CET"
-    display = dt_spain.strftime(f"%Y-%m-%d %H:%M:%S {tz_label}")
-    iso = dt_spain.isoformat()
-    return display, iso
-
-
-# ──────────────────────────────────────────────────────
-# STATUS MAPPING
-# ──────────────────────────────────────────────────────
-STATUS_MAP = {
-    "LIVE":   "Live",
-    "HT":     "Live",        # Half-time
-    "NS":     "Upcoming",    # Not started
-    "FT":     "Finished",    # Full-time
-    "AET":    "Finished",    # After extra time
-    "PEN":    "Finished",    # Penalties
-    "POST":   "Postponed",
-    "CANC":   "Cancelled",
-    "SUSP":   "Suspended",
-    "INT":    "Interrupted",
-}
-
-
-def status_label(raw):
-    """Map raw status code to human-readable label."""
-    return STATUS_MAP.get(raw, raw or "Unknown")
-
-
-# ──────────────────────────────────────────────────────
-# STREAM CLEANUP
-# ──────────────────────────────────────────────────────
-# Quality ranking: higher = better
-QUALITY_RANK = {"GHD": 5, "FHD": 4, "HD": 3, "WHD": 2, "SD": 1}
-
-
-def clean_streams(raw_streams):
-    """Deduplicate and clean stream list. Returns (cleaned_list, best_stream)."""
-    if not raw_streams:
-        return [], None
-
-    seen = set()
-    cleaned = []
-    for s in raw_streams:
-        link = s.get("stream_link", "")
-        if not link or link in seen:
-            continue
-        seen.add(link)
-        cleaned.append({
-            "stream_link":  link,
-            "display_name": s.get("display_name", ""),
-            "line":         s.get("line", ""),
-        })
-
-    # Pick best stream by quality ranking
-    best = max(cleaned, key=lambda s: QUALITY_RANK.get(s.get("display_name", ""), 0), default=None)
-    return cleaned, best
+    dt_spain = dt_utc.astimezone(spain_offset(dt_utc))
+    return dt_spain.strftime("%Y-%m-%d %H:%M:%S CEST")
 
 
 def main():
@@ -367,13 +309,11 @@ def main():
     sport_counts = {}
 
     for m in matches:
-        sport, _ = find_sport(m)
+        sport, keyword = find_sport(m)
         if not sport:
             continue
 
         start_ts = m.get("start_at") or m.get("timestamp")
-        spain_display, spain_iso = ts_to_spain(start_ts)
-        streams_clean, best_stream = clean_streams(m.get("link_live", []))
 
         entry = {
             "id":              m.get("id"),
@@ -381,20 +321,18 @@ def main():
             "league":          m.get("league_name", ""),
             "match":           m.get("name", ""),
             "status":          m.get("status", ""),
-            "status_label":    status_label(m.get("status", "")),
             "score":           m.get("score", ""),
             "home_team":       m.get("localteam_name", ""),
             "away_team":       m.get("visitorteam_name", ""),
             "home_logo":       m.get("localteam_logo", ""),
             "away_logo":       m.get("visitorteam_logo", ""),
             "league_logo":     m.get("league_logo", ""),
-            "spain_time":      spain_display,
-            "spain_time_iso":  spain_iso,
+            "spain_time":      ts_to_spain(start_ts),
             "start_unix":      start_ts,
             "is_live":         m.get("is_playing", False),
-            "stream_count":    len(streams_clean),
-            "streams":         streams_clean,
-            "best_stream":     best_stream,
+            "matched_keyword": keyword,
+            "stream_count":    len(m.get("link_live", [])),
+            "streams":         m.get("link_live", []),
             "cdn_domain":      m.get("cdn_domain", ""),
             "referer":         m.get("referer", ""),
         }
@@ -404,21 +342,17 @@ def main():
     # Sort: live first, then by start time
     kept.sort(key=lambda x: (not x["is_live"], x["start_unix"] or 0))
 
-    # ── Group by sport → league (nested) ─────────────
+    # ── Group by sport → league ──────────────────────
     grouped = {}
     for m in kept:
-        sport = m["sport"]
-        league = m["league"]
-        grouped.setdefault(sport, {}).setdefault(league, []).append(m)
+        key = f"{m['sport']} › {m['league']}"
+        grouped.setdefault(key, []).append(m)
 
     # ── Build output ─────────────────────────────────
-    now = datetime.now(timezone.utc)
-    offset = spain_offset(now)
-    generated_at_iso = now.astimezone(offset).isoformat()
-
     output = {
         "source":       url,
-        "generated_at": generated_at_iso,
+        "generated_at": datetime.now(spain_offset(datetime.now(timezone.utc)))
+                        .strftime("%Y-%m-%d %H:%M:%S CEST"),
         "timezone":     "Europe/Madrid (auto CEST/CET)",
         "summary": {
             "total_matches":  len(matches),
