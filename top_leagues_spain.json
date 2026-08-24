@@ -1,14 +1,15 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-08-24T11:11:38.190664+02:00",
+  "generated_at": "2026-08-24T12:01:58.853498+02:00",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
     "total_matches": 69,
-    "major_leagues": 34,
+    "major_leagues": 35,
     "by_sport": {
       "Cricket": 3,
       "Cycling": 1,
       "Football": 19,
+      "Tennis": 1,
       "Baseball": 10,
       "Basketball": 1
     }
@@ -1186,6 +1187,48 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a6b6e04d2634c113adf1d2a-fhd/index.m3u8",
             "display_name": "FHD",
             "line": "fhd"
+          },
+          "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+          "referer": "https://iframe.rumsport8.live"
+        }
+      ]
+    },
+    "Tennis": {
+      "US Open": [
+        {
+          "id": 54528,
+          "sport": "Tennis",
+          "league": "US Open",
+          "match": "US Open",
+          "status": "NS",
+          "status_label": "Upcoming",
+          "score": "vs",
+          "home_team": "",
+          "away_team": "",
+          "home_logo": "",
+          "away_logo": "",
+          "league_logo": "",
+          "spain_time": "2026-08-24 17:00:00 CEST",
+          "spain_time_iso": "2026-08-24T17:00:00+02:00",
+          "start_unix": 1787583600,
+          "is_live": false,
+          "stream_count": 2,
+          "streams": [
+            {
+              "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/147445_abr.m3u8",
+              "display_name": "FHD",
+              "line": ""
+            },
+            {
+              "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445_abr.m3u8",
+              "display_name": "FHD",
+              "line": ""
+            }
+          ],
+          "best_stream": {
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/147445_abr.m3u8",
+            "display_name": "FHD",
+            "line": ""
           },
           "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
           "referer": "https://iframe.rumsport8.live"
