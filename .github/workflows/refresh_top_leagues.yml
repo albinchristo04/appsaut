@@ -2,13 +2,14 @@ name: Refresh Top Leagues
 
 on:
   schedule:
-    # Run every 15 minutes
+    # Run every 15 minutes (GitHub may delay scheduled runs by up to 15 min during high load)
     - cron: '*/15 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10  # Prevent hung jobs
 
     permissions:
       contents: write
@@ -16,21 +17,41 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Shallow clone for speed
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      - name: Verify secret is set
+        run: |
+          if [ -z "${{ secrets.PLAYLIST_URL }}" ]; then
+            echo "::error::PLAYLIST_URL secret is not set. Please add it in Settings > Secrets."
+            exit 1
+          fi
+          echo "✅ PLAYLIST_URL is configured"
+
       - name: Run filter script
         env:
           PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
-        run: python filter_top_leagues.py
+        run: |
+          echo "🕐 Starting refresh at $(date -u)"
+          python filter_top_leagues.py
+          echo "✅ Script completed at $(date -u)"
 
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code top_leagues_spain.json || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet top_leagues_spain.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "📋 No changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected in top_leagues_spain.json"
+            git diff top_leagues_spain.json | head -20
+          fi
 
       - name: Commit and push if changed
         if: steps.git-check.outputs.changed == 'true'
@@ -40,3 +61,4 @@ jobs:
           git add top_leagues_spain.json
           git commit -m "Update top_leagues_spain.json [skip ci]"
           git push
+          echo "✅ Successfully pushed update at $(date -u)"
