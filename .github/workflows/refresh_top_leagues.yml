@@ -2,23 +2,24 @@ name: Refresh Top Leagues
 
 on:
   schedule:
-    # Run every 15 minutes (GitHub may delay scheduled runs by up to 15 min during high load)
-    - cron: '*/15 * * * *'
+    # Bootstraps in case self-dispatch chain breaks
+    - cron: '0,15,30,45 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # Prevent hung jobs
+    timeout-minutes: 15
 
     permissions:
       contents: write
+      actions: write  # Required for workflow_dispatch API call
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Shallow clone for speed
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,7 +29,7 @@ jobs:
       - name: Verify secret is set
         run: |
           if [ -z "${{ secrets.PLAYLIST_URL }}" ]; then
-            echo "::error::PLAYLIST_URL secret is not set. Please add it in Settings > Secrets."
+            echo "::error::PLAYLIST_URL secret is not set"
             exit 1
           fi
           echo "✅ PLAYLIST_URL is configured"
@@ -49,8 +50,7 @@ jobs:
             echo "📋 No changes detected"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "📝 Changes detected in top_leagues_spain.json"
-            git diff top_leagues_spain.json | head -20
+            echo "📝 Changes detected"
           fi
 
       - name: Commit and push if changed
@@ -61,4 +61,16 @@ jobs:
           git add top_leagues_spain.json
           git commit -m "Update top_leagues_spain.json [skip ci]"
           git push
-          echo "✅ Successfully pushed update at $(date -u)"
+
+      - name: Schedule next run in 14 minutes
+        if: always()
+        run: |
+          echo "⏳ Waiting 14 minutes before triggering next run..."
+          sleep 840
+          echo "🔄 Triggering next workflow run..."
+          curl -s -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/refresh_top_leagues.yml/dispatches \
+            -d '{"ref":"main"}' || echo "⚠️  Failed to schedule next run"
+          echo "✅ Next run scheduled"
