@@ -1,19 +1,18 @@
 name: Refresh Top Leagues
 
 on:
+  # Fallback cron — GitHub may throttle this but external trigger keeps it reliable
   schedule:
-    # Bootstraps in case self-dispatch chain breaks
     - cron: '0,15,30,45 * * * *'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:  # Triggered externally every 15 min via cron-job.org
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
 
     permissions:
       contents: write
-      actions: write  # Required for workflow_dispatch API call
 
     steps:
       - name: Checkout repository
@@ -26,31 +25,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Verify secret is set
-        run: |
-          if [ -z "${{ secrets.PLAYLIST_URL }}" ]; then
-            echo "::error::PLAYLIST_URL secret is not set"
-            exit 1
-          fi
-          echo "✅ PLAYLIST_URL is configured"
-
       - name: Run filter script
         env:
           PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
-        run: |
-          echo "🕐 Starting refresh at $(date -u)"
-          python filter_top_leagues.py
-          echo "✅ Script completed at $(date -u)"
+        run: python filter_top_leagues.py
 
       - name: Check for changes
         id: git-check
         run: |
           if git diff --quiet top_leagues_spain.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "📋 No changes detected"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "📝 Changes detected"
           fi
 
       - name: Commit and push if changed
@@ -61,16 +47,3 @@ jobs:
           git add top_leagues_spain.json
           git commit -m "Update top_leagues_spain.json [skip ci]"
           git push
-
-      - name: Schedule next run in 14 minutes
-        if: always()
-        run: |
-          echo "⏳ Waiting 14 minutes before triggering next run..."
-          sleep 840
-          echo "🔄 Triggering next workflow run..."
-          curl -s -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.WORKFLOW_PAT }}" \
-            https://api.github.com/repos/${{ github.repository }}/actions/workflows/refresh_top_leagues.yml/dispatches \
-            -d '{"ref":"main"}' || echo "⚠️  Failed to schedule next run"
-          echo "✅ Next run scheduled"
