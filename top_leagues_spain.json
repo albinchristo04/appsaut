@@ -1,17 +1,16 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-09-09 23:58:15 CEST",
+  "generated_at": "2026-09-10 02:06:33 CEST",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
-    "total_matches": 50,
-    "major_leagues": 27,
+    "total_matches": 47,
+    "major_leagues": 25,
     "by_sport": {
       "Tennis": 1,
-      "Snooker": 1,
-      "Baseball": 17,
+      "Baseball": 14,
+      "Cricket": 4,
+      "Football": 4,
       "Cycling": 1,
-      "Football": 3,
-      "Cricket": 3,
       "American Football": 1
     }
   },
@@ -43,8 +42,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:15",
-            "updated_at": "2026-09-09 21:47:15"
+            "created_at": "2026-09-10 00:02:08",
+            "updated_at": "2026-09-10 00:02:08"
           },
           {
             "id": "",
@@ -54,56 +53,9 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:15",
-            "updated_at": "2026-09-09 21:47:15",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789076851-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-07749be6fb3b45e8c56d4dfcafd759a0"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Snooker › World Snooker Tour": [
-      {
-        "id": 65136,
-        "sport": "Snooker",
-        "league": "World Snooker Tour",
-        "match": "English Open: Secondo turno",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-09 20:00:00 CEST",
-        "start_unix": 1788976800,
-        "is_live": true,
-        "matched_keyword": "snooker",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "1418",
-            "stream_name": "1418",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/1418_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:32",
-            "updated_at": "2026-09-09 21:47:32"
-          },
-          {
-            "id": "",
-            "chanel_id": "1418",
-            "stream_name": "1418",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1418_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:32",
-            "updated_at": "2026-09-09 21:47:32",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789076853-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6094fd92be42ac5f5741744adeaadee7"
+            "created_at": "2026-09-10 00:02:08",
+            "updated_at": "2026-09-10 00:02:08",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789084949-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-783d5e52870564968332e635def009ae"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -112,146 +64,11 @@
     ],
     "Baseball › MLB": [
       {
-        "id": 55759,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Toronto Blue Jays vs Athletics",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "Toronto Blue Jays",
-        "away_team": "Athletics",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-09 21:05:00 CEST",
-        "start_unix": 1788980700,
-        "is_live": true,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55836",
-            "stream_name": "55836",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55836_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:24",
-            "updated_at": "2026-09-09 21:47:24"
-          },
-          {
-            "id": "",
-            "chanel_id": "55836",
-            "stream_name": "55836",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55836_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:24",
-            "updated_at": "2026-09-09 21:47:24",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55836/720p/chunks.m3u8?is_vip=false&token=1789076854-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-69d376561f0e819fb2025d31390d6c57"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 55760,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "St. Louis Cardinals vs San Francisco Giants",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "St. Louis Cardinals",
-        "away_team": "San Francisco Giants",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-09 21:45:00 CEST",
-        "start_unix": 1788983100,
-        "is_live": true,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55837",
-            "stream_name": "55837",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55837_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:22",
-            "updated_at": "2026-09-09 21:47:22"
-          },
-          {
-            "id": "",
-            "chanel_id": "55837",
-            "stream_name": "55837",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:22",
-            "updated_at": "2026-09-09 21:47:22",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1789076855-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-13e957962a25455c95454e4c87c7b636"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 55761,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Washington Nationals vs San Diego Padres",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "St. Louis Cardinals",
-        "away_team": "San Diego Padres",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-09 22:10:00 CEST",
-        "start_unix": 1788984600,
-        "is_live": true,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55838",
-            "stream_name": "55838",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:36",
-            "updated_at": "2026-09-09 21:47:36"
-          },
-          {
-            "id": "",
-            "chanel_id": "55838",
-            "stream_name": "55838",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:36",
-            "updated_at": "2026-09-09 21:47:36",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1789076856-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-846c05f179621456600ae2f5d7bc8c7e"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
         "id": 55762,
         "sport": "Baseball",
         "league": "MLB",
         "match": "Cleveland Guardians vs Baltimore Orioles",
-        "status": "NS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "Cleveland Guardians",
         "away_team": "Baltimore Orioles",
@@ -260,51 +77,7 @@
         "league_logo": "",
         "spain_time": "2026-09-10 00:35:00 CEST",
         "start_unix": 1788993300,
-        "is_live": false,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55839",
-            "stream_name": "55839",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55839_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
-          },
-          {
-            "id": "",
-            "chanel_id": "55839",
-            "stream_name": "55839",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 55763,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "New York Mets vs Miami Marlins",
-        "status": "NS",
-        "score": "vs",
-        "home_team": "New York Mets",
-        "away_team": "Miami Marlins",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-10 00:40:00 CEST",
-        "start_unix": 1788993600,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -316,8 +89,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:34",
+            "updated_at": "2026-09-10 00:02:34"
           },
           {
             "id": "",
@@ -327,8 +100,9 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:34",
+            "updated_at": "2026-09-10 00:02:34",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55840/720p/chunks.m3u8?is_vip=false&token=1789084954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-92008a80665487c0d742a1660516c9fe"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -339,7 +113,7 @@
         "sport": "Baseball",
         "league": "MLB",
         "match": "Houston Astros vs Philadelphia Phillies",
-        "status": "NS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "Houston Astros",
         "away_team": "Philadelphia Phillies",
@@ -348,7 +122,7 @@
         "league_logo": "",
         "spain_time": "2026-09-10 00:40:00 CEST",
         "start_unix": 1788993600,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -360,8 +134,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:35",
+            "updated_at": "2026-09-10 00:02:35"
           },
           {
             "id": "",
@@ -371,28 +145,29 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:35",
+            "updated_at": "2026-09-10 00:02:35",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1789084956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4ef162ee0bf5e679c299ebe41aad213e"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 55765,
+        "id": 55763,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Los Angeles Angels vs Boston Red Sox",
-        "status": "NS",
+        "match": "New York Mets vs Miami Marlins",
+        "status": "LIVE",
         "score": "vs",
-        "home_team": "Los Angeles Angels",
-        "away_team": "Boston Red Sox",
+        "home_team": "New York Mets",
+        "away_team": "Miami Marlins",
         "home_logo": "",
         "away_logo": "",
         "league_logo": "",
-        "spain_time": "2026-09-10 00:45:00 CEST",
-        "start_unix": 1788993900,
-        "is_live": false,
+        "spain_time": "2026-09-10 00:40:00 CEST",
+        "start_unix": 1788993600,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -404,8 +179,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:37",
+            "updated_at": "2026-09-10 00:02:37"
           },
           {
             "id": "",
@@ -415,28 +190,29 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:37",
+            "updated_at": "2026-09-10 00:02:37",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1789084957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1fd2228a2a6e86de0ae936743cafae1a"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 55766,
+        "id": 55765,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Colorado Rockies vs New York Yankees",
-        "status": "NS",
+        "match": "Los Angeles Angels vs Boston Red Sox",
+        "status": "LIVE",
         "score": "vs",
-        "home_team": "Colorado Rockies",
-        "away_team": "New York Yankees",
+        "home_team": "Los Angeles Angels",
+        "away_team": "Boston Red Sox",
         "home_logo": "",
         "away_logo": "",
         "league_logo": "",
-        "spain_time": "2026-09-10 01:05:00 CEST",
-        "start_unix": 1788995100,
-        "is_live": false,
+        "spain_time": "2026-09-10 00:45:00 CEST",
+        "start_unix": 1788993900,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -448,8 +224,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:37",
+            "updated_at": "2026-09-10 00:02:37"
           },
           {
             "id": "",
@@ -459,28 +235,29 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:37",
+            "updated_at": "2026-09-10 00:02:37",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1789084958-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4ede434ddd7b1e1a9d291d2feed9a8a0"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 55767,
+        "id": 55766,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Tampa Bay Rays vs Atlanta Braves",
-        "status": "NS",
+        "match": "Colorado Rockies vs New York Yankees",
+        "status": "LIVE",
         "score": "vs",
-        "home_team": "Tampa Bay Rays",
-        "away_team": "Atlanta Braves",
+        "home_team": "Colorado Rockies",
+        "away_team": "New York Yankees",
         "home_logo": "",
         "away_logo": "",
         "league_logo": "",
-        "spain_time": "2026-09-10 01:15:00 CEST",
-        "start_unix": 1788995700,
-        "is_live": false,
+        "spain_time": "2026-09-10 01:05:00 CEST",
+        "start_unix": 1788995100,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -492,8 +269,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:44",
+            "updated_at": "2026-09-10 00:02:44"
           },
           {
             "id": "",
@@ -503,28 +280,29 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:44",
+            "updated_at": "2026-09-10 00:02:44",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55844/720p/chunks.m3u8?is_vip=false&token=1789084967-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1e72d0cd872df52c5bee0819abd43676"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 55768,
+        "id": 55767,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Pittsburgh Pirates vs Chicago White Sox",
-        "status": "NS",
+        "match": "Tampa Bay Rays vs Atlanta Braves",
+        "status": "LIVE",
         "score": "vs",
-        "home_team": "Pittsburgh Pirates",
-        "away_team": "Chicago White Sox",
+        "home_team": "Tampa Bay Rays",
+        "away_team": "Atlanta Braves",
         "home_logo": "",
         "away_logo": "",
         "league_logo": "",
-        "spain_time": "2026-09-10 01:40:00 CEST",
-        "start_unix": 1788997200,
-        "is_live": false,
+        "spain_time": "2026-09-10 01:15:00 CEST",
+        "start_unix": 1788995700,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -536,8 +314,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:48",
+            "updated_at": "2026-09-10 00:02:48"
           },
           {
             "id": "",
@@ -547,72 +325,29 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:02:48",
+            "updated_at": "2026-09-10 00:02:48",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55845/720p/chunks.m3u8?is_vip=false&token=1789084969-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d9e2c46595b8067f332c148f5df45f2b"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 55769,
+        "id": 55768,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Chicago Cubs vs Milwaukee Brewers",
-        "status": "NS",
+        "match": "Pittsburgh Pirates vs Chicago White Sox",
+        "status": "LIVE",
         "score": "vs",
-        "home_team": "Chicago Cubs",
-        "away_team": "Milwaukee Brewers",
+        "home_team": "Pittsburgh Pirates",
+        "away_team": "Chicago White Sox",
         "home_logo": "",
         "away_logo": "",
         "league_logo": "",
         "spain_time": "2026-09-10 01:40:00 CEST",
         "start_unix": 1788997200,
-        "is_live": false,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55846",
-            "stream_name": "55846",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55846_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
-          },
-          {
-            "id": "",
-            "chanel_id": "55846",
-            "stream_name": "55846",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55846_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 55770,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Arizona Diamondbacks vs Kansas City Royals",
-        "status": "NS",
-        "score": "vs",
-        "home_team": "Arizona Diamondbacks",
-        "away_team": "Kansas City Royals",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-10 01:40:00 CEST",
-        "start_unix": 1788997200,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -624,8 +359,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:03:09",
+            "updated_at": "2026-09-10 00:03:09"
           },
           {
             "id": "",
@@ -635,52 +370,54 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:03:09",
+            "updated_at": "2026-09-10 00:03:09",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847/720p/chunks.m3u8?is_vip=false&token=1789084989-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-93fbf695f75f3b95543e5651c11e19a1"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 55771,
+        "id": 55769,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Texas Rangers vs Seattle Mariners",
-        "status": "NS",
+        "match": "Chicago Cubs vs Milwaukee Brewers",
+        "status": "LIVE",
         "score": "vs",
-        "home_team": "Texas Rangers",
-        "away_team": "Seattle Mariners",
+        "home_team": "Chicago Cubs",
+        "away_team": "Milwaukee Brewers",
         "home_logo": "",
         "away_logo": "",
         "league_logo": "",
-        "spain_time": "2026-09-10 03:40:00 CEST",
-        "start_unix": 1789004400,
-        "is_live": false,
+        "spain_time": "2026-09-10 01:40:00 CEST",
+        "start_unix": 1788997200,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "55850",
-            "stream_name": "55850",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55850_abr.m3u8",
+            "chanel_id": "55848",
+            "stream_name": "55848",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55848_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:03:11",
+            "updated_at": "2026-09-10 00:03:11"
           },
           {
             "id": "",
-            "chanel_id": "55850",
-            "stream_name": "55850",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55850_abr.m3u8",
+            "chanel_id": "55848",
+            "stream_name": "55848",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55848_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:39",
-            "updated_at": "2026-09-09 21:47:39"
+            "created_at": "2026-09-10 00:03:11",
+            "updated_at": "2026-09-10 00:03:11",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55848/720p/chunks.m3u8?is_vip=false&token=1789084991-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d51995ed726aa56f01ad0ed98d6218e4"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -706,25 +443,25 @@
         "streams": [
           {
             "id": "",
-            "chanel_id": "55849",
-            "stream_name": "55849",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55849_abr.m3u8",
+            "chanel_id": "262811",
+            "stream_name": "262811",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/262811_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           },
           {
             "id": "",
-            "chanel_id": "55849",
-            "stream_name": "55849",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55849_abr.m3u8",
+            "chanel_id": "262811",
+            "stream_name": "262811",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/262811_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -756,8 +493,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           },
           {
             "id": "",
@@ -767,8 +504,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -800,8 +537,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           },
           {
             "id": "",
@@ -811,8 +548,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -844,8 +581,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           },
           {
             "id": "",
@@ -855,8 +592,96 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 55776,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Colorado Rockies vs New York Yankees",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Colorado Rockies",
+        "away_team": "New York Yankees",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-11 01:05:00 CEST",
+        "start_unix": 1789081500,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55837",
+            "stream_name": "55837",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55837_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
+          },
+          {
+            "id": "",
+            "chanel_id": "55837",
+            "stream_name": "55837",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 55777,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Pittsburgh Pirates vs Chicago White Sox",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Pittsburgh Pirates",
+        "away_team": "Chicago White Sox",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-11 01:40:00 CEST",
+        "start_unix": 1789083600,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55838",
+            "stream_name": "55838",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
+          },
+          {
+            "id": "",
+            "chanel_id": "55838",
+            "stream_name": "55838",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-10 00:03:18",
+            "updated_at": "2026-09-10 00:03:18"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -869,7 +694,7 @@
         "sport": "Cricket",
         "league": "CPL",
         "match": "Warriors vs Kings",
-        "status": "NS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -878,6 +703,51 @@
         "league_logo": "",
         "spain_time": "2026-09-10 01:00:00 CEST",
         "start_unix": 1788994800,
+        "is_live": true,
+        "matched_keyword": "cpl",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "490",
+            "stream_name": "490",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/490_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-10 00:02:41",
+            "updated_at": "2026-09-10 00:02:41"
+          },
+          {
+            "id": "",
+            "chanel_id": "490",
+            "stream_name": "490",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-10 00:02:41",
+            "updated_at": "2026-09-10 00:02:41",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789084961-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0ac04f897d04072866bf2d7b575dfda7"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 55729,
+        "sport": "Cricket",
+        "league": "CPL",
+        "match": "Tridents vs Nevis Patriots",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "",
+        "away_team": "",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-11 01:00:00 CEST",
+        "start_unix": 1789081200,
         "is_live": false,
         "matched_keyword": "cpl",
         "stream_count": 2,
@@ -890,8 +760,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:19",
+            "updated_at": "2026-09-10 00:03:19"
           },
           {
             "id": "",
@@ -901,60 +771,62 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:19",
+            "updated_at": "2026-09-10 00:03:19"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       }
     ],
-    "Cricket › Major League Soccer": [
+    "Football › Canadian Premier League": [
       {
-        "id": 46201,
-        "sport": "Cricket",
-        "league": "Major League Soccer",
-        "match": "New York City FC vs New England Revolution",
-        "status": "NS",
+        "id": 56315,
+        "sport": "Football",
+        "league": "Canadian Premier League",
+        "match": "York United vs Pacific FC",
+        "status": "1H",
         "score": "vs",
-        "home_team": "New York City FC",
-        "away_team": "New England Revolution",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1604.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1609.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/253.png",
-        "spain_time": "2026-09-10 02:00:00 CEST",
-        "start_unix": 1788998400,
-        "is_live": false,
-        "matched_keyword": "england",
+        "home_team": "York United",
+        "away_team": "Pacific FC",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/2623.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/2622.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/479.png",
+        "spain_time": "2026-09-10 01:30:00 CEST",
+        "start_unix": 1788996600,
+        "is_live": true,
+        "matched_keyword": "premier league",
         "stream_count": 4,
         "streams": [
           {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a6-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-10 00:02:56",
+            "updated_at": "2026-09-10 00:02:56",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a6-backup/chunks.m3u8?is_vip=false&token=1789084977-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6b823be410b1e4fac0fc301fd51032a2"
           },
           {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a6-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-10 00:02:56",
+            "updated_at": "2026-09-10 00:02:56"
           },
           {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0/index.m3u8",
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a6/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:02:56",
+            "updated_at": "2026-09-10 00:02:56",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a6/chunks.m3u8?is_vip=false&token=1789084977-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fd9c91c95b85b2b8169e91090bf876ca"
           },
           {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0/index.m3u8",
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a6/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:02:56",
+            "updated_at": "2026-09-10 00:02:56"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -967,7 +839,7 @@
         "sport": "Football",
         "league": "MLS Next Pro",
         "match": "Huntsville City vs Chattanooga",
-        "status": "NS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "Huntsville City",
         "away_team": "Chattanooga",
@@ -976,7 +848,7 @@
         "league_logo": "https://rs.maycdn.com/fixture/leagues/af/909.png",
         "spain_time": "2026-09-10 02:00:00 CEST",
         "start_unix": 1788998400,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "mls",
         "stream_count": 2,
         "streams": [
@@ -984,15 +856,70 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a99d8f3fbc4c8ef09f8f186/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:03:12",
+            "updated_at": "2026-09-10 00:03:12",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a99d8f3fbc4c8ef09f8f186/chunks.m3u8?is_vip=false&token=1789084992-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9bdb56cfcb3039f4751b50c3f1f7c87f"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a99d8f3fbc4c8ef09f8f186/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:03:12",
+            "updated_at": "2026-09-10 00:03:12"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Cricket › Major League Soccer": [
+      {
+        "id": 46201,
+        "sport": "Cricket",
+        "league": "Major League Soccer",
+        "match": "New York City FC vs New England Revolution",
+        "status": "LIVE",
+        "score": "vs",
+        "home_team": "New York City FC",
+        "away_team": "New England Revolution",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1604.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1609.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/253.png",
+        "spain_time": "2026-09-10 02:00:00 CEST",
+        "start_unix": 1788998400,
+        "is_live": true,
+        "matched_keyword": "england",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-10 00:03:13",
+            "updated_at": "2026-09-10 00:03:13",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0-hd/chunks.m3u8?is_vip=false&token=1789084993-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7b89c11a4df942e9b1b8c433faa0c0f2"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-10 00:03:13",
+            "updated_at": "2026-09-10 00:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-10 00:03:13",
+            "updated_at": "2026-09-10 00:03:13",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0/chunks.m3u8?is_vip=false&token=1789084994-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1ec6f806bbe47d03324b859247c206aa"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a81d78af23cddb5af8a48a0/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-10 00:03:13",
+            "updated_at": "2026-09-10 00:03:13"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1005,7 +932,7 @@
         "sport": "American Football",
         "league": "NFL",
         "match": "New England Patriots vs Seattle Seahawks",
-        "status": "NS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -1014,7 +941,7 @@
         "league_logo": "",
         "spain_time": "2026-09-10 02:20:00 CEST",
         "start_unix": 1788999600,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "nfl",
         "stream_count": 2,
         "streams": [
@@ -1026,8 +953,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "id": "",
@@ -1037,8 +964,9 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52455/720p/chunks.m3u8?is_vip=false&token=1789084996-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-763c37256272e11af1472f2884f3de4d"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1072,8 +1000,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:19",
+            "updated_at": "2026-09-10 00:03:19"
           },
           {
             "id": "",
@@ -1083,8 +1011,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:40",
-            "updated_at": "2026-09-09 21:47:40"
+            "created_at": "2026-09-10 00:03:19",
+            "updated_at": "2026-09-10 00:03:19"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1118,8 +1046,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:37",
-            "updated_at": "2026-09-09 21:47:37"
+            "created_at": "2026-09-10 00:03:15",
+            "updated_at": "2026-09-10 00:03:15"
           },
           {
             "id": "",
@@ -1129,8 +1057,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "HD",
-            "created_at": "2026-09-09 21:47:37",
-            "updated_at": "2026-09-09 21:47:37"
+            "created_at": "2026-09-10 00:03:15",
+            "updated_at": "2026-09-10 00:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1160,29 +1088,29 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee12a0a-hd/index.m3u8",
             "display_name": "GHD",
             "line": "global",
-            "created_at": "2026-09-09 21:47:37",
-            "updated_at": "2026-09-09 21:47:37"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee12a0a-hd/index.m3u8",
             "display_name": "GHD",
             "line": "global",
-            "created_at": "2026-09-09 21:47:37",
-            "updated_at": "2026-09-09 21:47:37"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee12a0a/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:37",
-            "updated_at": "2026-09-09 21:47:37"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee12a0a/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:37",
-            "updated_at": "2026-09-09 21:47:37"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1210,29 +1138,29 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0-hd/index.m3u8",
             "display_name": "GHD",
             "line": "global",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0-hd/index.m3u8",
             "display_name": "GHD",
             "line": "global",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-09 21:47:38",
-            "updated_at": "2026-09-09 21:47:38"
+            "created_at": "2026-09-10 00:03:16",
+            "updated_at": "2026-09-10 00:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
