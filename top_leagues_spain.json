@@ -1,351 +1,25 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-09-15 18:47:14 CEST",
+  "generated_at": "2026-09-15 22:06:44 CEST",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
-    "total_matches": 65,
-    "major_leagues": 26,
+    "total_matches": 93,
+    "major_leagues": 42,
     "by_sport": {
-      "Football": 7,
-      "Rugby": 3,
+      "Football": 19,
       "Tennis": 1,
-      "Baseball": 15
+      "Rugby": 3,
+      "Baseball": 19
     }
   },
   "matches": {
-    "Football › La Liga": [
-      {
-        "id": 43767,
-        "sport": "Football",
-        "league": "La Liga",
-        "match": "Alaves vs Valencia",
-        "status": "NS",
-        "score": "vs",
-        "home_team": "Alaves",
-        "away_team": "Valencia",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/542.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/532.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-        "spain_time": "2026-09-15 20:00:00 CEST",
-        "start_unix": 1789495200,
-        "is_live": false,
-        "matched_keyword": "la liga",
-        "stream_count": 8,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-fancode/index.m3u8",
-            "display_name": "FHD",
-            "line": "other",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-fancode/index.m3u8",
-            "display_name": "FHD",
-            "line": "other",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-twhd/index.m3u8",
-            "display_name": "FHD",
-            "line": "other",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b-twhd/index.m3u8",
-            "display_name": "FHD",
-            "line": "other",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:40",
-            "updated_at": "2026-09-15 16:32:40"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 43771,
-        "sport": "Football",
-        "league": "La Liga",
-        "match": "Elche vs Real Madrid",
-        "status": "NS",
-        "score": "vs",
-        "home_team": "Elche",
-        "away_team": "Real Madrid",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/797.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/541.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
-        "spain_time": "2026-09-15 21:30:00 CEST",
-        "start_unix": 1789500600,
-        "is_live": false,
-        "matched_keyword": "la liga",
-        "stream_count": 12,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-hd/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "GHD",
-            "sort": 1,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-hd/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "GHD",
-            "sort": 2,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fhd/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 3,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fhd/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 4,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fancode/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 5,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fancode/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 6,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-twhd/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 7,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-twhd/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 8,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "WHD",
-            "sort": 9,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "",
-            "stream_name": "",
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97/index.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "WHD",
-            "sort": 10,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "112520",
-            "stream_name": "112520",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/112520_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 11,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "id": "",
-            "chanel_id": "112520",
-            "stream_name": "112520",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112520_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 12,
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Football › Eredivisie": [
-      {
-        "id": 60910,
-        "sport": "Football",
-        "league": "Eredivisie",
-        "match": "Ajax vs Willem II",
-        "status": "NS",
-        "score": "vs",
-        "home_team": "Ajax",
-        "away_team": "Willem II",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/194.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/195.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/88.png",
-        "spain_time": "2026-09-15 20:00:00 CEST",
-        "start_unix": 1789495200,
-        "is_live": false,
-        "matched_keyword": "eredivisie",
-        "stream_count": 8,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-fhd/index.m3u8",
-            "display_name": "FHD",
-            "line": "fhd",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-fhd/index.m3u8",
-            "display_name": "FHD",
-            "line": "fhd",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hkhd/index.m3u8",
-            "display_name": "FHD",
-            "line": "other",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b-hkhd/index.m3u8",
-            "display_name": "FHD",
-            "line": "other",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b6b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:41",
-            "updated_at": "2026-09-15 16:32:41"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
     "Tennis › WTA Guadalajara": [
       {
         "id": 68303,
         "sport": "Tennis",
         "league": "WTA Guadalajara",
         "match": "WTA Guadalajara",
-        "status": "NS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -354,7 +28,7 @@
         "league_logo": "",
         "spain_time": "2026-09-15 20:00:00 CEST",
         "start_unix": 1789495200,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "wta ",
         "stream_count": 2,
         "streams": [
@@ -367,8 +41,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:02:38",
+            "updated_at": "2026-09-15 20:02:38"
           },
           {
             "id": "",
@@ -379,8 +53,9 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:02:38",
+            "updated_at": "2026-09-15 20:02:38",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789588959-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bdf26c4c38c77ef5dda498565d0c894a"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -389,47 +64,11 @@
     ],
     "Rugby › Premiership": [
       {
-        "id": 60919,
-        "sport": "Rugby",
-        "league": "Premiership",
-        "match": "Falkirk vs Heart Of Midlothian",
-        "status": "NS",
-        "score": "vs",
-        "home_team": "Falkirk",
-        "away_team": "Heart Of Midlothian",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1389.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/254.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/179.png",
-        "spain_time": "2026-09-15 20:45:00 CEST",
-        "start_unix": 1789497900,
-        "is_live": false,
-        "matched_keyword": "premiership",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
         "id": 60920,
         "sport": "Rugby",
         "league": "Premiership",
         "match": "Hibernian vs Kilmarnock",
-        "status": "NS",
+        "status": "2H",
         "score": "vs",
         "home_team": "Hibernian",
         "away_team": "Kilmarnock",
@@ -438,23 +77,38 @@
         "league_logo": "https://rs.maycdn.com/fixture/leagues/af/179.png",
         "spain_time": "2026-09-15 20:45:00 CEST",
         "start_unix": 1789497900,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "premiership",
-        "stream_count": 2,
+        "stream_count": 4,
         "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:48",
+            "updated_at": "2026-09-15 20:02:48"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:48",
+            "updated_at": "2026-09-15 20:02:48"
+          },
           {
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
+            "created_at": "2026-09-15 20:02:48",
+            "updated_at": "2026-09-15 20:02:48",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7/chunks.m3u8?is_vip=false&token=1789588969-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-932d0acf6645ad03cafc73e7d24c8cac"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf7/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
+            "created_at": "2026-09-15 20:02:48",
+            "updated_at": "2026-09-15 20:02:48"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -465,7 +119,7 @@
         "sport": "Rugby",
         "league": "Premiership",
         "match": "Motherwell vs Aberdeen",
-        "status": "NS",
+        "status": "2H",
         "score": "vs",
         "home_team": "Motherwell",
         "away_team": "Aberdeen",
@@ -474,61 +128,495 @@
         "league_logo": "https://rs.maycdn.com/fixture/leagues/af/179.png",
         "spain_time": "2026-09-15 20:45:00 CEST",
         "start_unix": 1789497900,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "premiership",
-        "stream_count": 2,
+        "stream_count": 4,
         "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:49",
+            "updated_at": "2026-09-15 20:02:49"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:49",
+            "updated_at": "2026-09-15 20:02:49"
+          },
           {
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
+            "created_at": "2026-09-15 20:02:49",
+            "updated_at": "2026-09-15 20:02:49",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6/chunks.m3u8?is_vip=false&token=1789588970-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c85db5bef3efa1443f144cf59ea8b2e7"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf6/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
+            "created_at": "2026-09-15 20:02:49",
+            "updated_at": "2026-09-15 20:02:49"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 60919,
+        "sport": "Rugby",
+        "league": "Premiership",
+        "match": "Falkirk vs Heart Of Midlothian",
+        "status": "2H",
+        "score": "vs",
+        "home_team": "Falkirk",
+        "away_team": "Heart Of Midlothian",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1389.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/254.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/179.png",
+        "spain_time": "2026-09-15 20:45:00 CEST",
+        "start_unix": 1789497900,
+        "is_live": true,
+        "matched_keyword": "premiership",
+        "stream_count": 2,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:02:56",
+            "updated_at": "2026-09-15 20:02:56",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/chunks.m3u8?is_vip=false&token=1789588977-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-50a9e1e57e9355165080f9dee139d4d4"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a68cb65000f680c3c822bf8/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:02:56",
+            "updated_at": "2026-09-15 20:02:56"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       }
     ],
-    "Football › FA Cup": [
+    "Football › La Liga": [
       {
-        "id": 64057,
+        "id": 43771,
         "sport": "Football",
-        "league": "FA Cup",
-        "match": "Jersey Bulls vs Burgess Hill Town",
-        "status": "NS",
+        "league": "La Liga",
+        "match": "Elche vs Real Madrid",
+        "status": "1H",
         "score": "vs",
-        "home_team": "Jersey Bulls",
-        "away_team": "Burgess Hill Town",
-        "home_logo": "",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7217.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-15 20:45:00 CEST",
-        "start_unix": 1789497900,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
+        "home_team": "Elche",
+        "away_team": "Real Madrid",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/797.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/541.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
+        "spain_time": "2026-09-15 21:30:00 CEST",
+        "start_unix": 1789500600,
+        "is_live": true,
+        "matched_keyword": "la liga",
+        "stream_count": 10,
         "streams": [
           {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9ee6a70bd04a161fb12c68/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
+            "id": "",
+            "sort": 11,
+            "vip_only": 0,
+            "chanel_id": "112520",
+            "extra_title": "",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/112520_abr.m3u8",
+            "stream_name": "112520",
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23"
           },
           {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9ee6a70bd04a161fb12c68/index.m3u8",
+            "id": "",
+            "sort": 12,
+            "vip_only": 0,
+            "chanel_id": "112520",
+            "extra_title": "",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112520_abr.m3u8",
+            "stream_name": "112520",
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/112520/720p/chunks.m3u8?is_vip=false&token=1789588954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7752119e59c2aa661c9ce80f3bb4bbf3"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-hd/chunks.m3u8?is_vip=false&token=1789588955-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c24ca9baca13e06ecf89f7d90c86cede"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-backup/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fancode/chunks.m3u8?is_vip=false&token=1789588957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a789c462ad525153973de836a1b5a7e0"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:42",
-            "updated_at": "2026-09-15 16:32:42"
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97/chunks.m3u8?is_vip=false&token=1789588957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ffdb1395f7c6843d17dacb98a71ade8e"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b97/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:02:23",
+            "updated_at": "2026-09-15 20:02:23"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 43764,
+        "sport": "Football",
+        "league": "La Liga",
+        "match": "Atletico Madrid vs Osasuna",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Atletico Madrid",
+        "away_team": "Osasuna",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/530.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/727.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
+        "spain_time": "2026-09-16 19:00:00 CEST",
+        "start_unix": 1789578000,
+        "is_live": false,
+        "matched_keyword": "la liga",
+        "stream_count": 8,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b9a/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 43769,
+        "sport": "Football",
+        "league": "La Liga",
+        "match": "Deportivo La Coruna vs Sevilla",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Deportivo La Coruna",
+        "away_team": "Sevilla",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/544.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/536.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
+        "spain_time": "2026-09-16 19:00:00 CEST",
+        "start_unix": 1789578000,
+        "is_live": false,
+        "matched_keyword": "la liga",
+        "stream_count": 8,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b98/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 43763,
+        "sport": "Football",
+        "league": "La Liga",
+        "match": "Barcelona vs Racing Santander",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Barcelona",
+        "away_team": "Racing Santander",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/529.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/4665.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
+        "spain_time": "2026-09-16 21:30:00 CEST",
+        "start_unix": 1789587000,
+        "is_live": false,
+        "matched_keyword": "la liga",
+        "stream_count": 8,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b96/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 43766,
+        "sport": "Football",
+        "league": "La Liga",
+        "match": "Levante vs Athletic Club",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Levante",
+        "away_team": "Athletic Club",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/539.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/531.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/140.png",
+        "spain_time": "2026-09-16 21:30:00 CEST",
+        "start_unix": 1789587000,
+        "is_live": false,
+        "matched_keyword": "la liga",
+        "stream_count": 8,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95-fancode/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c098fd629e492f245b95/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -562,8 +650,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           },
           {
             "id": "",
@@ -573,8 +661,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -606,8 +694,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           },
           {
             "id": "",
@@ -617,8 +705,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -650,8 +738,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           },
           {
             "id": "",
@@ -661,8 +749,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -694,8 +782,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           },
           {
             "id": "",
@@ -705,8 +793,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -738,8 +826,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           },
           {
             "id": "",
@@ -749,8 +837,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -782,8 +870,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -793,8 +881,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -826,8 +914,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -837,8 +925,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -870,8 +958,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -881,8 +969,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -914,8 +1002,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -925,8 +1013,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:46",
-            "updated_at": "2026-09-15 16:32:46"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -958,8 +1046,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -969,8 +1057,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1002,8 +1090,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -1013,8 +1101,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1046,8 +1134,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -1057,8 +1145,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1090,8 +1178,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -1101,8 +1189,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1134,8 +1222,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -1145,8 +1233,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1178,8 +1266,8 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           },
           {
             "id": "",
@@ -1189,8 +1277,184 @@
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
-            "created_at": "2026-09-15 16:32:47",
-            "updated_at": "2026-09-15 16:32:47"
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 65051,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Chicago White Sox vs Cleveland Guardians",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Chicago White Sox",
+        "away_team": "Cleveland Guardians",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/bs/1000000442.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/bs/1000000445.png",
+        "league_logo": "",
+        "spain_time": "2026-09-16 19:10:00 CEST",
+        "start_unix": 1789578600,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55835",
+            "stream_name": "55835",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          },
+          {
+            "id": "",
+            "chanel_id": "55835",
+            "stream_name": "55835",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 65052,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "San Francisco Giants vs St. Louis Cardinals",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "San Francisco Giants",
+        "away_team": "St. Louis Cardinals",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-16 19:15:00 CEST",
+        "start_unix": 1789578900,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55836",
+            "stream_name": "55836",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55836_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          },
+          {
+            "id": "",
+            "chanel_id": "55836",
+            "stream_name": "55836",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55836_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 65053,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "New York Yankees vs Minnesota Twins",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "New York Yankees",
+        "away_team": "Minnesota Twins",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-16 19:40:00 CEST",
+        "start_unix": 1789580400,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55837",
+            "stream_name": "55837",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55837_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          },
+          {
+            "id": "",
+            "chanel_id": "55837",
+            "stream_name": "55837",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 65054,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Detroit Tigers vs Toronto Blue Jays",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Detroit Tigers",
+        "away_team": "Toronto Blue Jays",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-16 21:05:00 CEST",
+        "start_unix": 1789585500,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55838",
+            "stream_name": "55838",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
+          },
+          {
+            "id": "",
+            "chanel_id": "55838",
+            "stream_name": "55838",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "created_at": "2026-09-15 20:03:16",
+            "updated_at": "2026-09-15 20:03:16"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1220,29 +1484,29 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb34752-hd/index.m3u8",
             "display_name": "GHD",
             "line": "global",
-            "created_at": "2026-09-15 16:32:44",
-            "updated_at": "2026-09-15 16:32:44"
+            "created_at": "2026-09-15 20:03:12",
+            "updated_at": "2026-09-15 20:03:12"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb34752-hd/index.m3u8",
             "display_name": "GHD",
             "line": "global",
-            "created_at": "2026-09-15 16:32:44",
-            "updated_at": "2026-09-15 16:32:44"
+            "created_at": "2026-09-15 20:03:12",
+            "updated_at": "2026-09-15 20:03:12"
           },
           {
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb34752/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:44",
-            "updated_at": "2026-09-15 16:32:44"
+            "created_at": "2026-09-15 20:03:12",
+            "updated_at": "2026-09-15 20:03:12"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a7b402efb009bc39fb34752/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:44",
-            "updated_at": "2026-09-15 16:32:44"
+            "created_at": "2026-09-15 20:03:12",
+            "updated_at": "2026-09-15 20:03:12"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1272,15 +1536,15 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e99/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:45",
-            "updated_at": "2026-09-15 16:32:45"
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e99/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:45",
-            "updated_at": "2026-09-15 16:32:45"
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1308,15 +1572,581 @@
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e9a/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:45",
-            "updated_at": "2026-09-15 16:32:45"
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a89c0988f7c293f9f116e9a/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-15 16:32:45",
-            "updated_at": "2026-09-15 16:32:45"
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 61671,
+        "sport": "Football",
+        "league": "Premier League",
+        "match": "Baltika vs Zenit",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Baltika",
+        "away_team": "Zenit",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/2006.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/596.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/235.png",
+        "spain_time": "2026-09-16 19:45:00 CEST",
+        "start_unix": 1789580700,
+        "is_live": false,
+        "matched_keyword": "premier league",
+        "stream_count": 2,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc3e8/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc3e8/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 61672,
+        "sport": "Football",
+        "league": "Premier League",
+        "match": "Lokomotiv vs Krylia Sovetov",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Lokomotiv",
+        "away_team": "Krylia Sovetov",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/597.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1079.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/235.png",
+        "spain_time": "2026-09-16 19:45:00 CEST",
+        "start_unix": 1789580700,
+        "is_live": false,
+        "matched_keyword": "premier league",
+        "stream_count": 2,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc3e7/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a8b1212bd56ad3e896dc3e7/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Football › UEFA Europa League": [
+      {
+        "id": 57297,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Omonia Nicosia vs Celta Vigo",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Omonia Nicosia",
+        "away_team": "Celta Vigo",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/3402.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/538.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 18:45:00 CEST",
+        "start_unix": 1789577100,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 6,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d26-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d26-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d26-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d26-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d26/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d26/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57301,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Ararat-Armenia vs Sparta Praha",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Ararat-Armenia",
+        "away_team": "Sparta Praha",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/3683.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/628.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 18:45:00 CEST",
+        "start_unix": 1789577100,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2bb-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2bb-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2bb/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2bb/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:13",
+            "updated_at": "2026-09-15 20:03:13"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57194,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Bayer Leverkusen vs Celje",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Bayer Leverkusen",
+        "away_team": "Celje",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/168.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/4360.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 6,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2b4-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2b4-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2b4-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2b4-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2b4/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2b4/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57223,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "AC Milan vs Benfica",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "AC Milan",
+        "away_team": "Benfica",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/489.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/211.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 6,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c5-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c5-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c5-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c5-twhd/index.m3u8",
+            "display_name": "FHD",
+            "line": "other",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c5/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c5/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:11",
+            "updated_at": "2026-09-15 20:03:11"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57244,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Olympiakos Piraeus vs Jagiellonia",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Olympiakos Piraeus",
+        "away_team": "Jagiellonia",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/553.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/336.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d29-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d29-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d29/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d29/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57247,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Anderlecht vs Lyon",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Anderlecht",
+        "away_team": "Lyon",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/554.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/80.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c0-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c0-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c0/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b8250dd162770dd2c0/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:14",
+            "updated_at": "2026-09-15 20:03:14"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57253,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Hapoel Beer Sheva vs Dinamo Zagreb",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Hapoel Beer Sheva",
+        "away_team": "Dinamo Zagreb",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/563.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/620.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d54-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d54-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d54/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d54/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57272,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Sturm Graz vs Rennes",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Sturm Graz",
+        "away_team": "Rennes",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/637.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/94.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d08-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d08-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d08/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d08/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 57283,
+        "sport": "Football",
+        "league": "UEFA Europa League",
+        "match": "Sunderland vs AZ Alkmaar",
+        "status": "NS",
+        "score": "vs",
+        "home_team": "Sunderland",
+        "away_team": "AZ Alkmaar",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/746.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/201.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/3.png",
+        "spain_time": "2026-09-16 21:00:00 CEST",
+        "start_unix": 1789585200,
+        "is_live": false,
+        "matched_keyword": "europa league",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d06-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d06-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d06/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a92a6b844fd96a7d1473d06/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-15 20:03:15",
+            "updated_at": "2026-09-15 20:03:15"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
