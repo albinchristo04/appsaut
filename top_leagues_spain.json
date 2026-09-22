@@ -1,112 +1,24 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-09-22 16:58:19 CEST",
+  "generated_at": "2026-09-22 20:46:43 CEST",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
-    "total_matches": 80,
-    "major_leagues": 35,
+    "total_matches": 70,
+    "major_leagues": 23,
     "by_sport": {
-      "Tennis": 1,
-      "Football": 13,
-      "Baseball": 16,
+      "Baseball": 17,
+      "Football": 1,
       "Basketball": 5
     }
   },
   "matches": {
-    "Tennis › WTA Singapore": [
-      {
-        "id": 73903,
-        "sport": "Tennis",
-        "league": "WTA Singapore",
-        "match": "WTA Singapore",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-22 05:00:00 CEST",
-        "start_unix": 1790046000,
-        "is_live": true,
-        "matched_keyword": "wta ",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "147445",
-            "stream_name": "147445",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/147445_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-22 14:47:29",
-            "updated_at": "2026-09-22 14:47:29"
-          },
-          {
-            "id": "",
-            "chanel_id": "147445",
-            "stream_name": "147445",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-22 14:47:29",
-            "updated_at": "2026-09-22 14:47:29",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790174850-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-173bb4443ff8dffb3df5b20e14e70b98"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Football › Ligue 1": [
-      {
-        "id": 66076,
-        "sport": "Football",
-        "league": "Ligue 1",
-        "match": "US Biskra vs JS Saoura",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "US Biskra",
-        "away_team": "JS Saoura",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/909.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/914.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/186.png",
-        "spain_time": "2026-09-22 18:00:00 CEST",
-        "start_unix": 1790092800,
-        "is_live": false,
-        "matched_keyword": "ligue 1",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a73490efae1431b1dad3e6c/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:46",
-            "updated_at": "2026-09-22 10:32:46"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a73490efae1431b1dad3e6c/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:46",
-            "updated_at": "2026-09-22 10:32:46"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
     "Baseball › MLB": [
       {
         "id": 66618,
         "sport": "Baseball",
         "league": "MLB",
         "match": "Tampa Bay Rays vs New York Yankees",
-        "status": "UPCOMING",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "Tampa Bay Rays",
         "away_team": "New York Yankees",
@@ -115,7 +27,7 @@
         "league_logo": "",
         "spain_time": "2026-09-22 19:00:00 CEST",
         "start_unix": 1790096400,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -128,8 +40,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-22 10:32:55",
-            "updated_at": "2026-09-22 10:32:55"
+            "created_at": "2026-09-22 18:33:18",
+            "updated_at": "2026-09-22 18:33:18"
           },
           {
             "id": "",
@@ -140,8 +52,9 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-22 10:32:55",
-            "updated_at": "2026-09-22 10:32:55"
+            "created_at": "2026-09-22 18:33:18",
+            "updated_at": "2026-09-22 18:33:18",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55835/720p/chunks.m3u8?is_vip=false&token=1790188400-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-983c80a4f0a1665036844643459f5227"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -836,436 +749,48 @@
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Football › FA Cup": [
-      {
-        "id": 72534,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Chippenham Town vs Yate Town",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Chippenham Town",
-        "away_team": "Yate Town",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/8147.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7762.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f34/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:51",
-            "updated_at": "2026-09-22 10:32:51"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f34/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:51",
-            "updated_at": "2026-09-22 10:32:51"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 72858,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Braintree vs Needham Market",
+        "id": 67515,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Washington Nationals vs Detroit Tigers",
         "status": "UPCOMING",
         "score": "vs",
-        "home_team": "Braintree",
-        "away_team": "Needham Market",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1831.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7735.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
+        "home_team": "",
+        "away_team": "Detroit Tigers",
+        "home_logo": "",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/bs/1000000449.png",
+        "league_logo": "",
+        "spain_time": "2026-09-23 19:10:00 CEST",
+        "start_unix": 1790183400,
         "is_live": false,
-        "matched_keyword": "fa cup",
+        "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
           {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f33/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:51",
-            "updated_at": "2026-09-22 10:32:51"
+            "id": "",
+            "chanel_id": "55835",
+            "stream_name": "55835",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-22 17:18:32",
+            "updated_at": "2026-09-22 17:18:32"
           },
           {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f33/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:51",
-            "updated_at": "2026-09-22 10:32:51"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72859,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Crowborough Athletic vs Hampton & Richmond",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Crowborough Athletic",
-        "away_team": "Hampton & Richmond",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/8760.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/4680.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f30/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f30/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72860,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Dagenham & Redbridge vs Waltham Abbey",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Dagenham & Redbridge",
-        "away_team": "Waltham Abbey",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1821.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7259.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f32/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f32/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72862,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Farnborough vs Uxbridge",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Farnborough",
-        "away_team": "Uxbridge",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/7715.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7257.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2d/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2d/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72863,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Farnham Town vs Cirencester Town",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Farnham Town",
-        "away_team": "Cirencester Town",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/8783.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7629.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:50",
-            "updated_at": "2026-09-22 10:32:50"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72864,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Gainsborough Trinity vs Leamington",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Gainsborough Trinity",
-        "away_team": "Leamington",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/4691.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/8656.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f29/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f29/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72865,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Maidstone Utd vs Cray Wanderers",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Maidstone Utd",
-        "away_team": "Cray Wanderers",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1825.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7711.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2a/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:54",
-            "updated_at": "2026-09-22 10:32:54"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2a/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:54",
-            "updated_at": "2026-09-22 10:32:54"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72866,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Truro City vs Merthyr Town",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Truro City",
-        "away_team": "Merthyr Town",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/4699.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/7732.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2e/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2e/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72867,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Wimborne Town vs Weston-super-Mare",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Wimborne Town",
-        "away_team": "Weston-super-Mare",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/7758.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/4687.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2c/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f2c/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 72868,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Wingate & Finchley vs Hemel Hempstead Town",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Wingate & Finchley",
-        "away_team": "Hemel Hempstead Town",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/7759.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/8660.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f31/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f31/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 73901,
-        "sport": "Football",
-        "league": "FA Cup",
-        "match": "Dorking Wanderers vs Southall",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Dorking Wanderers",
-        "away_team": "Southall",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/8659.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/8941.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/45.png",
-        "spain_time": "2026-09-22 20:45:00 CEST",
-        "start_unix": 1790102700,
-        "is_live": false,
-        "matched_keyword": "fa cup",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f28/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6ab15b997cb66c539a101f28/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-22 10:32:53",
-            "updated_at": "2026-09-22 10:32:53"
+            "id": "",
+            "chanel_id": "55835",
+            "stream_name": "55835",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-22 17:18:32",
+            "updated_at": "2026-09-22 17:18:32"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1498,6 +1023,44 @@
             "sort": 2,
             "created_at": "2026-09-22 10:33:01",
             "updated_at": "2026-09-22 10:33:01"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Football › Gulf Cup of Nations": [
+      {
+        "id": 66192,
+        "sport": "Football",
+        "league": "Gulf Cup of Nations",
+        "match": "Saudi Arabia vs Kuwait",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "Saudi Arabia",
+        "away_team": "Kuwait",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/23.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1570.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/25.png",
+        "spain_time": "2026-09-23 20:00:00 CEST",
+        "start_unix": 1790186400,
+        "is_live": false,
+        "matched_keyword": "saudi",
+        "stream_count": 2,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a944ca2f23cddb5af1c6a1d/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-22 18:06:21",
+            "updated_at": "2026-09-22 18:06:21"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a944ca2f23cddb5af1c6a1d/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-22 18:06:21",
+            "updated_at": "2026-09-22 18:06:21"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
