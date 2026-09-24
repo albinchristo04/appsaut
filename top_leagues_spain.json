@@ -1,172 +1,29 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-09-24 18:59:16 CEST",
+  "generated_at": "2026-09-24 22:24:00 CEST",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
-    "total_matches": 87,
-    "major_leagues": 37,
+    "total_matches": 101,
+    "major_leagues": 33,
     "by_sport": {
       "Baseball": 12,
-      "Cricket": 3,
-      "Basketball": 8,
-      "Ice Hockey": 8,
-      "American Football": 1,
       "Golf": 2,
+      "Basketball": 6,
+      "Cricket": 2,
+      "Ice Hockey": 7,
+      "American Football": 1,
       "MMA": 1,
       "Formula 1": 2
     }
   },
   "matches": {
-    "Cricket › 2nd ODI": [
+    "Golf › PGA Tour": [
       {
-        "id": 67507,
-        "sport": "Cricket",
-        "league": "2nd ODI",
-        "match": "England vs Sri Lanka",
+        "id": 67556,
+        "sport": "Golf",
+        "league": "PGA Tour",
+        "match": "Chicago | Day 1",
         "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-24 13:30:00 CEST",
-        "start_unix": 1790249400,
-        "is_live": true,
-        "matched_keyword": "odi",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "289",
-            "stream_name": "289",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/289_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 16:48:02",
-            "updated_at": "2026-09-24 16:48:02"
-          },
-          {
-            "id": "",
-            "chanel_id": "289",
-            "stream_name": "289",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 16:48:02",
-            "updated_at": "2026-09-24 16:48:02",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/289/720p/chunks.m3u8?is_vip=false&token=1790354884-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e247ac1907b53d32f0d9dcf7f4975e40"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Basketball › EuroLeague": [
-      {
-        "id": 67544,
-        "sport": "Basketball",
-        "league": "EuroLeague",
-        "match": "Dubai Basketball vs Real Madrid",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-24 18:00:00 CEST",
-        "start_unix": 1790265600,
-        "is_live": true,
-        "matched_keyword": "euroleague",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "68892",
-            "stream_name": "68892",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/68892_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 16:48:34",
-            "updated_at": "2026-09-24 16:48:34"
-          },
-          {
-            "id": "",
-            "chanel_id": "68892",
-            "stream_name": "68892",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68892_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 16:48:34",
-            "updated_at": "2026-09-24 16:48:34",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68892/720p/chunks.m3u8?is_vip=false&token=1790354918-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0ca410b5ac63f47033b44658edf71eb6"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 67545,
-        "sport": "Basketball",
-        "league": "EuroLeague",
-        "match": "Hapoel IBI Tel Aviv vs FC Bayern Munich",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-24 18:00:00 CEST",
-        "start_unix": 1790265600,
-        "is_live": true,
-        "matched_keyword": "euroleague",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "68905",
-            "stream_name": "68905",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/68905_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 16:48:49",
-            "updated_at": "2026-09-24 16:48:49"
-          },
-          {
-            "id": "",
-            "chanel_id": "68905",
-            "stream_name": "68905",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 16:48:49",
-            "updated_at": "2026-09-24 16:48:49",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905/720p/chunks.m3u8?is_vip=false&token=1790354931-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-82e0d7c6a039fb31b0386a00ac96032e"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 67546,
-        "sport": "Basketball",
-        "league": "EuroLeague",
-        "match": "Crvena Zvezda Meridianbet Belgrade vs Zalgiris Kaunas",
-        "status": "UPCOMING",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -175,7 +32,102 @@
         "league_logo": "",
         "spain_time": "2026-09-24 20:00:00 CEST",
         "start_unix": 1790272800,
+        "is_live": true,
+        "matched_keyword": "pga tour",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "287",
+            "stream_name": "287",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/287_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-24 20:19:06",
+            "updated_at": "2026-09-24 20:19:06"
+          },
+          {
+            "id": "",
+            "chanel_id": "287",
+            "stream_name": "287",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-24 20:19:06",
+            "updated_at": "2026-09-24 20:19:06",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287/720p/chunks.m3u8?is_vip=false&token=1790367548-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-69e53cf62eda21c8936a017ecef36232"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 67557,
+        "sport": "Golf",
+        "league": "PGA Tour",
+        "match": "Chicago | Day 2",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "",
+        "away_team": "",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-25 18:30:00 CEST",
+        "start_unix": 1790353800,
         "is_live": false,
+        "matched_keyword": "pga tour",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "287",
+            "stream_name": "287",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/287_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-24 16:49:04",
+            "updated_at": "2026-09-24 16:49:04"
+          },
+          {
+            "id": "",
+            "chanel_id": "287",
+            "stream_name": "287",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-24 16:49:04",
+            "updated_at": "2026-09-24 16:49:04"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Basketball › EuroLeague": [
+      {
+        "id": 67546,
+        "sport": "Basketball",
+        "league": "EuroLeague",
+        "match": "Crvena Zvezda Meridianbet Belgrade vs Zalgiris Kaunas",
+        "status": "LIVE",
+        "score": "vs",
+        "home_team": "",
+        "away_team": "",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-24 20:00:00 CEST",
+        "start_unix": 1790272800,
+        "is_live": true,
         "matched_keyword": "euroleague",
         "stream_count": 2,
         "streams": [
@@ -188,8 +140,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 16:18:49",
-            "updated_at": "2026-09-24 16:18:49"
+            "created_at": "2026-09-24 20:19:11",
+            "updated_at": "2026-09-24 20:19:11"
           },
           {
             "id": "",
@@ -200,8 +152,9 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 16:18:49",
-            "updated_at": "2026-09-24 16:18:49"
+            "created_at": "2026-09-24 20:19:11",
+            "updated_at": "2026-09-24 20:19:11",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68896/720p/chunks.m3u8?is_vip=false&token=1790367553-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-1dbf8ddd136fe617720c3597e2bb6b80"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -212,7 +165,7 @@
         "sport": "Basketball",
         "league": "EuroLeague",
         "match": "Panathinaikos AKTOR Athens vs Paris Basketball",
-        "status": "UPCOMING",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -221,7 +174,7 @@
         "league_logo": "",
         "spain_time": "2026-09-24 20:15:00 CEST",
         "start_unix": 1790273700,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "euroleague",
         "stream_count": 2,
         "streams": [
@@ -234,8 +187,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 16:18:48",
-            "updated_at": "2026-09-24 16:18:48"
+            "created_at": "2026-09-24 20:19:17",
+            "updated_at": "2026-09-24 20:19:17"
           },
           {
             "id": "",
@@ -246,8 +199,9 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 16:18:48",
-            "updated_at": "2026-09-24 16:18:48"
+            "created_at": "2026-09-24 20:19:17",
+            "updated_at": "2026-09-24 20:19:17",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68895/720p/chunks.m3u8?is_vip=false&token=1790367559-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a7b1b6235aee5b2e742d650417f1cdb8"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -258,7 +212,7 @@
         "sport": "Basketball",
         "league": "EuroLeague",
         "match": "FC Barcelona vs Anadolu Efes Istanbul",
-        "status": "UPCOMING",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -267,7 +221,7 @@
         "league_logo": "",
         "spain_time": "2026-09-24 20:30:00 CEST",
         "start_unix": 1790274600,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "euroleague",
         "stream_count": 2,
         "streams": [
@@ -280,8 +234,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 16:18:48",
-            "updated_at": "2026-09-24 16:18:48"
+            "created_at": "2026-09-24 20:19:22",
+            "updated_at": "2026-09-24 20:19:22"
           },
           {
             "id": "",
@@ -292,8 +246,9 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 16:18:48",
-            "updated_at": "2026-09-24 16:18:48"
+            "created_at": "2026-09-24 20:19:22",
+            "updated_at": "2026-09-24 20:19:22",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/68905/720p/chunks.m3u8?is_vip=false&token=1790367565-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9c2e12b199ec4bfba72ac2889732f090"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -302,58 +257,11 @@
     ],
     "Baseball › MLB": [
       {
-        "id": 79184,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Pittsburgh Pirates vs St.Louis Cardinals",
-        "status": "IN1",
-        "score": "vs",
-        "home_team": "Pittsburgh Pirates",
-        "away_team": "St.Louis Cardinals",
-        "home_logo": "https://media.api-sports.io/baseball/teams/28.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/33.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-24 18:35:00 CEST",
-        "start_unix": 1790267700,
-        "is_live": true,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55835",
-            "stream_name": "55835",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 16:47:54",
-            "updated_at": "2026-09-24 16:47:54"
-          },
-          {
-            "id": "",
-            "chanel_id": "55835",
-            "stream_name": "55835",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 16:47:54",
-            "updated_at": "2026-09-24 16:47:54",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55835/720p/chunks.m3u8?is_vip=false&token=1790354877-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a86eb613a1f51e644d1cd66586d00029"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
         "id": 79185,
         "sport": "Baseball",
         "league": "MLB",
         "match": "Kansas City Royals vs Chicago White Sox",
-        "status": "UPCOMING",
+        "status": "IN7",
         "score": "vs",
         "home_team": "Kansas City Royals",
         "away_team": "Chicago White Sox",
@@ -362,53 +270,7 @@
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
         "spain_time": "2026-09-24 20:10:00 CEST",
         "start_unix": 1790273400,
-        "is_live": false,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55835",
-            "stream_name": "55835",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 05:48:08",
-            "updated_at": "2026-09-24 05:48:08"
-          },
-          {
-            "id": "",
-            "chanel_id": "55835",
-            "stream_name": "55835",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55835_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 05:48:08",
-            "updated_at": "2026-09-24 05:48:08"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 79186,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Chicago Cubs vs Miami Marlins",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Chicago Cubs",
-        "away_team": "Miami Marlins",
-        "home_logo": "https://media.api-sports.io/baseball/teams/6.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/19.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-24 20:20:00 CEST",
-        "start_unix": 1790274000,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -421,8 +283,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 05:48:09",
-            "updated_at": "2026-09-24 05:48:09"
+            "created_at": "2026-09-24 20:17:26",
+            "updated_at": "2026-09-24 20:17:26"
           },
           {
             "id": "",
@@ -433,28 +295,29 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 05:48:09",
-            "updated_at": "2026-09-24 05:48:09"
+            "created_at": "2026-09-24 20:17:26",
+            "updated_at": "2026-09-24 20:17:26",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55836/720p/chunks.m3u8?is_vip=false&token=1790367448-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e3b39eff21164881e154bfd8c3b70117"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 79187,
+        "id": 79186,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Texas Rangers vs New York Mets",
-        "status": "UPCOMING",
+        "match": "Chicago Cubs vs Miami Marlins",
+        "status": "IN7",
         "score": "vs",
-        "home_team": "Texas Rangers",
-        "away_team": "New York Mets",
-        "home_logo": "https://media.api-sports.io/baseball/teams/35.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/24.png",
+        "home_team": "Chicago Cubs",
+        "away_team": "Miami Marlins",
+        "home_logo": "https://media.api-sports.io/baseball/teams/6.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/19.png",
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-24 20:35:00 CEST",
-        "start_unix": 1790274900,
-        "is_live": false,
+        "spain_time": "2026-09-24 20:20:00 CEST",
+        "start_unix": 1790274000,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -467,8 +330,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 05:48:13",
-            "updated_at": "2026-09-24 05:48:13"
+            "created_at": "2026-09-24 20:17:31",
+            "updated_at": "2026-09-24 20:17:31"
           },
           {
             "id": "",
@@ -479,28 +342,29 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 05:48:13",
-            "updated_at": "2026-09-24 05:48:13"
+            "created_at": "2026-09-24 20:17:31",
+            "updated_at": "2026-09-24 20:17:31",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1790367453-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-52c75079d8dc3504da92f4bedcfda63b"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 79188,
+        "id": 79187,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Colorado Rockies vs Arizona Diamondbacks",
-        "status": "UPCOMING",
+        "match": "Texas Rangers vs New York Mets",
+        "status": "IN6",
         "score": "vs",
-        "home_team": "Colorado Rockies",
-        "away_team": "Arizona Diamondbacks",
-        "home_logo": "https://media.api-sports.io/baseball/teams/10.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/2.png",
+        "home_team": "Texas Rangers",
+        "away_team": "New York Mets",
+        "home_logo": "https://media.api-sports.io/baseball/teams/35.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/24.png",
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-24 21:10:00 CEST",
-        "start_unix": 1790277000,
-        "is_live": false,
+        "spain_time": "2026-09-24 20:35:00 CEST",
+        "start_unix": 1790274900,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
@@ -513,8 +377,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 05:48:11",
-            "updated_at": "2026-09-24 05:48:11"
+            "created_at": "2026-09-24 20:17:36",
+            "updated_at": "2026-09-24 20:17:36"
           },
           {
             "id": "",
@@ -525,8 +389,56 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 05:48:11",
-            "updated_at": "2026-09-24 05:48:11"
+            "created_at": "2026-09-24 20:17:36",
+            "updated_at": "2026-09-24 20:17:36",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1790367457-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-4d306fb89eaf7b528aa45fa449f2ffe4"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 79188,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Colorado Rockies vs Arizona Diamondbacks",
+        "status": "IN3",
+        "score": "vs",
+        "home_team": "Colorado Rockies",
+        "away_team": "Arizona Diamondbacks",
+        "home_logo": "https://media.api-sports.io/baseball/teams/10.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/2.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
+        "spain_time": "2026-09-24 21:10:00 CEST",
+        "start_unix": 1790277000,
+        "is_live": true,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55839",
+            "stream_name": "55839",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55839_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-24 20:18:59",
+            "updated_at": "2026-09-24 20:18:59"
+          },
+          {
+            "id": "",
+            "chanel_id": "55839",
+            "stream_name": "55839",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-24 20:18:59",
+            "updated_at": "2026-09-24 20:18:59",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790367541-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ec30227b50ae4a92816ab01b3e792493"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -853,96 +765,48 @@
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Golf › PGA Tour": [
-      {
-        "id": 67556,
-        "sport": "Golf",
-        "league": "PGA Tour",
-        "match": "Chicago | Day 1",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-24 20:00:00 CEST",
-        "start_unix": 1790272800,
-        "is_live": false,
-        "matched_keyword": "pga tour",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "287",
-            "stream_name": "287",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/287_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-23 18:03:26",
-            "updated_at": "2026-09-23 18:03:26"
-          },
-          {
-            "id": "",
-            "chanel_id": "287",
-            "stream_name": "287",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-23 18:03:26",
-            "updated_at": "2026-09-23 18:03:26"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 67557,
-        "sport": "Golf",
-        "league": "PGA Tour",
-        "match": "Chicago | Day 2",
-        "status": "NS",
+        "id": 79229,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "Boston Red Sox vs Chicago Cubs",
+        "status": "UPCOMING",
         "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-25 18:30:00 CEST",
-        "start_unix": 1790353800,
+        "home_team": "Boston Red Sox",
+        "away_team": "Chicago Cubs",
+        "home_logo": "https://media.api-sports.io/baseball/teams/5.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/6.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
+        "spain_time": "2026-09-25 19:05:00 CEST",
+        "start_unix": 1790355900,
         "is_live": false,
-        "matched_keyword": "pga tour",
+        "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "287",
-            "stream_name": "287",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/287_abr.m3u8",
+            "chanel_id": "55838",
+            "stream_name": "55838",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-24 16:49:04",
-            "updated_at": "2026-09-24 16:49:04"
+            "created_at": "2026-09-24 17:19:13",
+            "updated_at": "2026-09-24 17:19:13"
           },
           {
             "id": "",
-            "chanel_id": "287",
-            "stream_name": "287",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/287_abr.m3u8",
+            "chanel_id": "55838",
+            "stream_name": "55838",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55838_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-24 16:49:04",
-            "updated_at": "2026-09-24 16:49:04"
+            "created_at": "2026-09-24 17:19:13",
+            "updated_at": "2026-09-24 17:19:13"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -955,7 +819,7 @@
         "sport": "Cricket",
         "league": "Africa Cup of Nations - Qualification",
         "match": "Sierra Leone vs Zimbabwe",
-        "status": "UPCOMING",
+        "status": "2H",
         "score": "vs",
         "home_team": "Sierra Leone",
         "away_team": "Zimbabwe",
@@ -964,23 +828,51 @@
         "league_logo": "https://rs.maycdn.com/fixture/leagues/af/36.png",
         "spain_time": "2026-09-24 21:00:00 CEST",
         "start_unix": 1790276400,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "zimbabwe",
-        "stream_count": 2,
+        "stream_count": 4,
         "streams": [
           {
             "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fb99a5213cd25c04347f6/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-23 19:04:13",
-            "updated_at": "2026-09-23 19:04:13"
+            "sort": 1,
+            "created_at": "2026-09-24 20:19:45",
+            "updated_at": "2026-09-24 20:19:45",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9fb99a5213cd25c04347f6/chunks.m3u8?is_vip=false&token=1790367587-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6a247a37279033e22c599dffbf2fae03"
           },
           {
             "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9fb99a5213cd25c04347f6/index.m3u8",
             "display_name": "WHD",
             "line": "web",
-            "created_at": "2026-09-23 19:04:13",
-            "updated_at": "2026-09-23 19:04:13"
+            "sort": 2,
+            "created_at": "2026-09-24 20:19:45",
+            "updated_at": "2026-09-24 20:19:45"
+          },
+          {
+            "id": "",
+            "chanel_id": "274849",
+            "stream_name": "274849",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/274849_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 3,
+            "created_at": "2026-09-24 20:19:45",
+            "updated_at": "2026-09-24 20:19:45"
+          },
+          {
+            "id": "",
+            "chanel_id": "274849",
+            "stream_name": "274849",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274849_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 4,
+            "created_at": "2026-09-24 20:19:45",
+            "updated_at": "2026-09-24 20:19:45",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/274849/720p/chunks.m3u8?is_vip=false&token=1790367590-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9af830c65881c3c554dcbab9c947278f"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1069,52 +961,6 @@
             "chanel_id": "52442",
             "stream_name": "52442",
             "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52442_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 09:03:26",
-            "updated_at": "2026-09-24 09:03:26"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 80032,
-        "sport": "Ice Hockey",
-        "league": "NHL",
-        "match": "Carolina Hurricanes vs Nashville Predators",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Carolina Hurricanes",
-        "away_team": "Nashville Predators",
-        "home_logo": "https://media.api-sports.io/hockey/teams/676.png",
-        "away_logo": "https://media.api-sports.io/hockey/teams/689.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-        "spain_time": "2026-09-25 01:00:00 CEST",
-        "start_unix": 1790290800,
-        "is_live": false,
-        "matched_keyword": "nhl",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "52444",
-            "stream_name": "52444",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52444_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 09:03:26",
-            "updated_at": "2026-09-24 09:03:26"
-          },
-          {
-            "id": "",
-            "chanel_id": "52444",
-            "stream_name": "52444",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52444_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
