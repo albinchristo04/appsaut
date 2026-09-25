@@ -1,70 +1,20 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-09-25 09:34:46 CEST",
+  "generated_at": "2026-09-25 15:00:48 CEST",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
-    "total_matches": 104,
-    "major_leagues": 29,
+    "total_matches": 105,
+    "major_leagues": 27,
     "by_sport": {
-      "Tennis": 3,
-      "Baseball": 16,
-      "Ice Hockey": 3,
-      "Cricket": 1,
+      "Tennis": 1,
+      "Baseball": 17,
+      "Ice Hockey": 4,
       "Football": 3,
-      "Formula 1": 2,
-      "Golf": 1
+      "Golf": 1,
+      "Formula 1": 1
     }
   },
   "matches": {
-    "Tennis › WTA Seoul": [
-      {
-        "id": 81580,
-        "sport": "Tennis",
-        "league": "WTA Seoul",
-        "match": "WTA Seoul",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-25 05:00:00 CEST",
-        "start_unix": 1790305200,
-        "is_live": true,
-        "matched_keyword": "wta ",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "143070",
-            "stream_name": "143070",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/143070_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-25 05:47:32",
-            "updated_at": "2026-09-25 05:47:32"
-          },
-          {
-            "id": "",
-            "chanel_id": "143070",
-            "stream_name": "143070",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-25 05:47:32",
-            "updated_at": "2026-09-25 05:47:32",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1790401654-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0172f5b071c2985b40b637b6102d9f23"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
     "Tennis › WTA Singapore": [
       {
         "id": 81447,
@@ -133,189 +83,6 @@
             "created_at": "2026-09-25 05:47:46",
             "updated_at": "2026-09-25 05:47:46",
             "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790401672-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-199715280e2f8188037c4e984cd5606f"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Tennis › ATP Chengdu": [
-      {
-        "id": 82923,
-        "sport": "Tennis",
-        "league": "ATP Chengdu",
-        "match": "ATP Chengdu",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-25 07:00:00 CEST",
-        "start_unix": 1790312400,
-        "is_live": true,
-        "matched_keyword": "atp ",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "61349",
-            "stream_name": "61349",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/61349_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-25 05:47:55",
-            "updated_at": "2026-09-25 05:47:55"
-          },
-          {
-            "id": "",
-            "chanel_id": "61349",
-            "stream_name": "61349",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/61349_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-25 05:47:55",
-            "updated_at": "2026-09-25 05:47:55",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/61349/720p/chunks.m3u8?is_vip=false&token=1790401680-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6fe554f971a8f96868c5866e1b44604e"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Formula 1 › Formula 1 Practice": [
-      {
-        "id": 72914,
-        "sport": "Formula 1",
-        "league": "Formula 1 Practice",
-        "match": "Azerbaijan Grand Prix 2026 Practice 3",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-25 10:25:00 CEST",
-        "start_unix": 1790324700,
-        "is_live": false,
-        "matched_keyword": "formula 1",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "239",
-            "stream_name": "239",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/239_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 08:33:27",
-            "updated_at": "2026-09-24 08:33:27"
-          },
-          {
-            "id": "",
-            "chanel_id": "239",
-            "stream_name": "239",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 08:33:27",
-            "updated_at": "2026-09-24 08:33:27"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Cricket › FIFA Asean Cup": [
-      {
-        "id": 81443,
-        "sport": "Cricket",
-        "league": "FIFA Asean Cup",
-        "match": "Bangladesh vs Malaysia",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Bangladesh",
-        "away_team": "Malaysia",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1560.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1538.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/1247.png",
-        "spain_time": "2026-09-25 11:00:00 CEST",
-        "start_unix": 1790326800,
-        "is_live": false,
-        "matched_keyword": "bangladesh",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a996855bd56ad3e890101bf/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-24 12:03:46",
-            "updated_at": "2026-09-24 12:03:46"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a996855bd56ad3e890101bf/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-24 12:03:46",
-            "updated_at": "2026-09-24 12:03:46"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Formula 1 › Formula 1 Qualifying": [
-      {
-        "id": 72916,
-        "sport": "Formula 1",
-        "league": "Formula 1 Qualifying",
-        "match": "Azerbaijan Grand Prix 2026",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-25 13:30:00 CEST",
-        "start_unix": 1790335800,
-        "is_live": false,
-        "matched_keyword": "formula 1",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "239",
-            "stream_name": "239",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/239_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-24 11:33:33",
-            "updated_at": "2026-09-24 11:33:33"
-          },
-          {
-            "id": "",
-            "chanel_id": "239",
-            "stream_name": "239",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-24 11:33:33",
-            "updated_at": "2026-09-24 11:33:33"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -642,6 +409,52 @@
             "sort": 2,
             "created_at": "2026-09-24 23:19:01",
             "updated_at": "2026-09-24 23:19:01"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 79220,
+        "sport": "Baseball",
+        "league": "MLB",
+        "match": "New York Yankees vs Baltimore Orioles",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "New York Yankees",
+        "away_team": "Baltimore Orioles",
+        "home_logo": "https://media.api-sports.io/baseball/teams/25.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/4.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
+        "spain_time": "2026-09-26 01:05:00 CEST",
+        "start_unix": 1790377500,
+        "is_live": false,
+        "matched_keyword": "mlb",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "55846",
+            "stream_name": "55846",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55846_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-25 08:18:57",
+            "updated_at": "2026-09-25 08:18:57"
+          },
+          {
+            "id": "",
+            "chanel_id": "55846",
+            "stream_name": "55846",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55846_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-25 08:18:57",
+            "updated_at": "2026-09-25 08:18:57"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1246,6 +1059,52 @@
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 80044,
+        "sport": "Ice Hockey",
+        "league": "NHL",
+        "match": "Colorado Avalanche vs Winnipeg Jets",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "Colorado Avalanche",
+        "away_team": "Winnipeg Jets",
+        "home_logo": "https://media.api-sports.io/hockey/teams/679.png",
+        "away_logo": "https://media.api-sports.io/hockey/teams/704.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
+        "spain_time": "2026-09-26 02:30:00 CEST",
+        "start_unix": 1790382600,
+        "is_live": false,
+        "matched_keyword": "nhl",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "52443",
+            "stream_name": "52443",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52443_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-25 09:49:03",
+            "updated_at": "2026-09-25 09:49:03"
+          },
+          {
+            "id": "",
+            "chanel_id": "52443",
+            "stream_name": "52443",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52443_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-25 09:49:03",
+            "updated_at": "2026-09-25 09:49:03"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
       }
     ],
     "Football › Liga MX": [
@@ -1368,6 +1227,54 @@
             "line": "web",
             "created_at": "2026-09-25 02:05:07",
             "updated_at": "2026-09-25 02:05:07"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Formula 1 › Formula 1 Main Race": [
+      {
+        "id": 72919,
+        "sport": "Formula 1",
+        "league": "Formula 1 Main Race",
+        "match": "Azerbaijan Grand Prix 2026",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "",
+        "away_team": "",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-26 13:00:00 CEST",
+        "start_unix": 1790420400,
+        "is_live": false,
+        "matched_keyword": "formula 1",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "239",
+            "stream_name": "239",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/239_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-25 11:03:45",
+            "updated_at": "2026-09-25 11:03:45"
+          },
+          {
+            "id": "",
+            "chanel_id": "239",
+            "stream_name": "239",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/239_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-25 11:03:45",
+            "updated_at": "2026-09-25 11:03:45"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
