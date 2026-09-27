@@ -1,17 +1,17 @@
 {
   "source": "https://raw.githubusercontent.com/srhady/bingstream/refs/heads/main/playlist.json",
-  "generated_at": "2026-09-27 01:39:01 CEST",
+  "generated_at": "2026-09-27 03:51:29 CEST",
   "timezone": "Europe/Madrid (auto CEST/CET)",
   "summary": {
-    "total_matches": 169,
-    "major_leagues": 60,
+    "total_matches": 153,
+    "major_leagues": 52,
     "by_sport": {
-      "Baseball": 22,
-      "Ice Hockey": 7,
-      "MMA": 2,
-      "Football": 8,
-      "American Football": 12,
+      "Baseball": 20,
+      "Ice Hockey": 3,
+      "MMA": 1,
+      "Football": 6,
       "Cricket": 4,
+      "American Football": 13,
       "Rugby": 2,
       "Basketball": 2,
       "Golf": 1
@@ -24,7 +24,7 @@
         "sport": "Baseball",
         "league": "MLB",
         "match": "Minnesota Twins vs Texas Rangers",
-        "status": "IN5",
+        "status": "IN9",
         "score": "vs",
         "home_team": "Minnesota Twins",
         "away_team": "Texas Rangers",
@@ -46,8 +46,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 23:32:29",
-            "updated_at": "2026-09-26 23:32:29"
+            "created_at": "2026-09-27 01:47:28",
+            "updated_at": "2026-09-27 01:47:28"
           },
           {
             "id": "",
@@ -58,103 +58,9 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 23:32:29",
-            "updated_at": "2026-09-26 23:32:29",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790551950-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0011e15bb25e0e60355d0863478d1208"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 79217,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Milwaukee Brewers vs St.Louis Cardinals",
-        "status": "IN2",
-        "score": "vs",
-        "home_team": "Milwaukee Brewers",
-        "away_team": "St.Louis Cardinals",
-        "home_logo": "https://media.api-sports.io/baseball/teams/20.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/33.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-27 01:10:00 CEST",
-        "start_unix": 1790464200,
-        "is_live": true,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55843",
-            "stream_name": "55843",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55843_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 23:32:46",
-            "updated_at": "2026-09-26 23:32:46"
-          },
-          {
-            "id": "",
-            "chanel_id": "55843",
-            "stream_name": "55843",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 23:32:46",
-            "updated_at": "2026-09-26 23:32:46",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1790551972-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-55aba1d62cc11575e2b4a0e6a40b0438"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 79218,
-        "sport": "Baseball",
-        "league": "MLB",
-        "match": "Chicago White Sox vs Colorado Rockies",
-        "status": "IN1",
-        "score": "vs",
-        "home_team": "Chicago White Sox",
-        "away_team": "Colorado Rockies",
-        "home_logo": "https://media.api-sports.io/baseball/teams/7.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/10.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-27 01:10:00 CEST",
-        "start_unix": 1790464200,
-        "is_live": true,
-        "matched_keyword": "mlb",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "55842",
-            "stream_name": "55842",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55842_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 23:32:55",
-            "updated_at": "2026-09-26 23:32:55"
-          },
-          {
-            "id": "",
-            "chanel_id": "55842",
-            "stream_name": "55842",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 23:32:55",
-            "updated_at": "2026-09-26 23:32:55",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1790551975-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6212d2c7f96b9df6f28c9ef870ce69b5"
+            "created_at": "2026-09-27 01:47:28",
+            "updated_at": "2026-09-27 01:47:28",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1790560049-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-32175b5735962cfaf68dc2fe38e268a4"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -165,7 +71,7 @@
         "sport": "Baseball",
         "league": "MLB",
         "match": "Kansas City Royals vs Cleveland Guardians",
-        "status": "IN2",
+        "status": "IN9",
         "score": "vs",
         "home_team": "Kansas City Royals",
         "away_team": "Cleveland Guardians",
@@ -187,8 +93,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 23:32:58",
-            "updated_at": "2026-09-26 23:32:58"
+            "created_at": "2026-09-27 01:47:35",
+            "updated_at": "2026-09-27 01:47:35"
           },
           {
             "id": "",
@@ -199,147 +105,150 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 23:32:58",
-            "updated_at": "2026-09-26 23:32:58",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1790551978-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-423e972dfb03ad0abf8f957d49d113b3"
+            "created_at": "2026-09-27 01:47:35",
+            "updated_at": "2026-09-27 01:47:35",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1790560055-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3cc7bfcb2490dc0757f5eb7c0a9babe5"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 79223,
+        "id": 79218,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "San Diego Padres vs Arizona Diamondbacks",
-        "status": "UPCOMING",
+        "match": "Chicago White Sox vs Colorado Rockies",
+        "status": "IN9",
         "score": "vs",
-        "home_team": "San Diego Padres",
-        "away_team": "Arizona Diamondbacks",
-        "home_logo": "https://media.api-sports.io/baseball/teams/30.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/2.png",
+        "home_team": "Chicago White Sox",
+        "away_team": "Colorado Rockies",
+        "home_logo": "https://media.api-sports.io/baseball/teams/7.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/10.png",
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-27 02:40:00 CEST",
-        "start_unix": 1790469600,
-        "is_live": false,
+        "spain_time": "2026-09-27 01:10:00 CEST",
+        "start_unix": 1790464200,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "55847",
-            "stream_name": "55847",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55847_abr.m3u8",
+            "chanel_id": "55842",
+            "stream_name": "55842",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55842_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 00:49:19",
-            "updated_at": "2026-09-26 00:49:19"
+            "created_at": "2026-09-27 01:47:37",
+            "updated_at": "2026-09-27 01:47:37"
           },
           {
             "id": "",
-            "chanel_id": "55847",
-            "stream_name": "55847",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55847_abr.m3u8",
+            "chanel_id": "55842",
+            "stream_name": "55842",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 00:49:19",
-            "updated_at": "2026-09-26 00:49:19"
+            "created_at": "2026-09-27 01:47:37",
+            "updated_at": "2026-09-27 01:47:37",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1790560058-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-53f3b83999cbbd8aa10a654ba95c8279"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 79224,
+        "id": 79217,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Athletics vs Houston Astros",
-        "status": "UPCOMING",
+        "match": "Milwaukee Brewers vs St.Louis Cardinals",
+        "status": "IN9",
         "score": "vs",
-        "home_team": "Athletics",
-        "away_team": "Houston Astros",
-        "home_logo": "https://media.api-sports.io/baseball/teams/963.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/15.png",
+        "home_team": "Milwaukee Brewers",
+        "away_team": "St.Louis Cardinals",
+        "home_logo": "https://media.api-sports.io/baseball/teams/20.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/33.png",
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-27 03:40:00 CEST",
-        "start_unix": 1790473200,
-        "is_live": false,
+        "spain_time": "2026-09-27 01:10:00 CEST",
+        "start_unix": 1790464200,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "55849",
-            "stream_name": "55849",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55849_abr.m3u8",
+            "chanel_id": "55843",
+            "stream_name": "55843",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55843_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 01:49:15",
-            "updated_at": "2026-09-26 01:49:15"
+            "created_at": "2026-09-27 01:47:40",
+            "updated_at": "2026-09-27 01:47:40"
           },
           {
             "id": "",
-            "chanel_id": "55849",
-            "stream_name": "55849",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55849_abr.m3u8",
+            "chanel_id": "55843",
+            "stream_name": "55843",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 01:49:15",
-            "updated_at": "2026-09-26 01:49:15"
+            "created_at": "2026-09-27 01:47:40",
+            "updated_at": "2026-09-27 01:47:40",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1790560060-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2e06f85a9864b71a3fd55e751dc9cbcd"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 79225,
+        "id": 79221,
         "sport": "Baseball",
         "league": "MLB",
-        "match": "Seattle Mariners vs Los Angeles Angels",
-        "status": "UPCOMING",
+        "match": "Philadelphia Phillies vs Tampa Bay Rays",
+        "status": "IN6",
         "score": "vs",
-        "home_team": "Seattle Mariners",
-        "away_team": "Los Angeles Angels",
-        "home_logo": "https://media.api-sports.io/baseball/teams/32.png",
-        "away_logo": "https://media.api-sports.io/baseball/teams/17.png",
+        "home_team": "Philadelphia Phillies",
+        "away_team": "Tampa Bay Rays",
+        "home_logo": "https://media.api-sports.io/baseball/teams/27.png",
+        "away_logo": "https://media.api-sports.io/baseball/teams/34.png",
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ab/1.png",
-        "spain_time": "2026-09-27 03:40:00 CEST",
-        "start_unix": 1790473200,
-        "is_live": false,
+        "spain_time": "2026-09-27 01:15:00 CEST",
+        "start_unix": 1790464500,
+        "is_live": true,
         "matched_keyword": "mlb",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "55850",
-            "stream_name": "55850",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55850_abr.m3u8",
+            "chanel_id": "55844",
+            "stream_name": "55844",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/55844_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 01:49:14",
-            "updated_at": "2026-09-26 01:49:14"
+            "created_at": "2026-09-27 01:47:43",
+            "updated_at": "2026-09-27 01:47:43"
           },
           {
             "id": "",
-            "chanel_id": "55850",
-            "stream_name": "55850",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55850_abr.m3u8",
+            "chanel_id": "55844",
+            "stream_name": "55844",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55844_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 01:49:14",
-            "updated_at": "2026-09-26 01:49:14"
+            "created_at": "2026-09-27 01:47:43",
+            "updated_at": "2026-09-27 01:47:43",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/55844/720p/chunks.m3u8?is_vip=false&token=1790560063-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8893b8772edbc27b034dfc65c69337ba"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1038,105 +947,11 @@
     ],
     "Ice Hockey › NHL": [
       {
-        "id": 80048,
-        "sport": "Ice Hockey",
-        "league": "NHL",
-        "match": "Philadelphia Flyers vs Washington Capitals",
-        "status": "P3",
-        "score": "vs",
-        "home_team": "Philadelphia Flyers",
-        "away_team": "Washington Capitals",
-        "home_logo": "https://media.api-sports.io/hockey/teams/695.png",
-        "away_logo": "https://media.api-sports.io/hockey/teams/703.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-        "spain_time": "2026-09-26 23:00:00 CEST",
-        "start_unix": 1790456400,
-        "is_live": true,
-        "matched_keyword": "nhl",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "52443",
-            "stream_name": "52443",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52443_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 23:32:33",
-            "updated_at": "2026-09-26 23:32:33"
-          },
-          {
-            "id": "",
-            "chanel_id": "52443",
-            "stream_name": "52443",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52443_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 23:32:33",
-            "updated_at": "2026-09-26 23:32:33",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52443/720p/chunks.m3u8?is_vip=false&token=1790551953-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-350ded6be60f35a340de3338c82e8a53"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 80050,
-        "sport": "Ice Hockey",
-        "league": "NHL",
-        "match": "Florida Panthers vs Tampa Bay Lightning",
-        "status": "P2",
-        "score": "vs",
-        "home_team": "Florida Panthers",
-        "away_team": "Tampa Bay Lightning",
-        "home_logo": "https://media.api-sports.io/hockey/teams/684.png",
-        "away_logo": "https://media.api-sports.io/hockey/teams/699.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-        "spain_time": "2026-09-27 00:00:00 CEST",
-        "start_unix": 1790460000,
-        "is_live": true,
-        "matched_keyword": "nhl",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "52444",
-            "stream_name": "52444",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52444_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 23:32:35",
-            "updated_at": "2026-09-26 23:32:35"
-          },
-          {
-            "id": "",
-            "chanel_id": "52444",
-            "stream_name": "52444",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52444_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 23:32:35",
-            "updated_at": "2026-09-26 23:32:35",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52444/720p/chunks.m3u8?is_vip=false&token=1790551956-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-77a7f309dfc756b1f7ecbaf87235fd82"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
         "id": 80051,
         "sport": "Ice Hockey",
         "league": "NHL",
         "match": "Chicago Blackhawks vs St. Louis Blues",
-        "status": "P1",
+        "status": "P3",
         "score": "vs",
         "home_team": "Chicago Blackhawks",
         "away_team": "St. Louis Blues",
@@ -1158,8 +973,8 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 23:32:38",
-            "updated_at": "2026-09-26 23:32:38"
+            "created_at": "2026-09-27 01:47:32",
+            "updated_at": "2026-09-27 01:47:32"
           },
           {
             "id": "",
@@ -1170,149 +985,56 @@
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 23:32:38",
-            "updated_at": "2026-09-26 23:32:38",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52446/720p/chunks.m3u8?is_vip=false&token=1790551959-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9382524e2e6e9bc69c51398812c0af78"
+            "created_at": "2026-09-27 01:47:32",
+            "updated_at": "2026-09-27 01:47:32",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52446/720p/chunks.m3u8?is_vip=false&token=1790560052-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9e784fd99302517c0662b78e7e1990bb"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
         "referer": "https://iframe.rumsport8.live"
       },
       {
-        "id": 80052,
+        "id": 80056,
         "sport": "Ice Hockey",
         "league": "NHL",
-        "match": "Detroit Red Wings vs Columbus Blue Jackets",
-        "status": "P1",
+        "match": "New York Islanders vs New Jersey Devils",
+        "status": "P3",
         "score": "vs",
-        "home_team": "Detroit Red Wings",
-        "away_team": "Columbus Blue Jackets",
-        "home_logo": "https://media.api-sports.io/hockey/teams/682.png",
-        "away_logo": "https://media.api-sports.io/hockey/teams/680.png",
+        "home_team": "New York Islanders",
+        "away_team": "New Jersey Devils",
+        "home_logo": "https://media.api-sports.io/hockey/teams/691.png",
+        "away_logo": "https://media.api-sports.io/hockey/teams/690.png",
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-        "spain_time": "2026-09-27 01:00:00 CEST",
-        "start_unix": 1790463600,
+        "spain_time": "2026-09-27 01:30:00 CEST",
+        "start_unix": 1790465400,
         "is_live": true,
         "matched_keyword": "nhl",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "52447",
-            "stream_name": "52447",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52447_abr.m3u8",
+            "chanel_id": "52448",
+            "stream_name": "52448",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52448_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 23:32:41",
-            "updated_at": "2026-09-26 23:32:41"
+            "created_at": "2026-09-27 01:47:46",
+            "updated_at": "2026-09-27 01:47:46"
           },
           {
             "id": "",
-            "chanel_id": "52447",
-            "stream_name": "52447",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52447_abr.m3u8",
+            "chanel_id": "52448",
+            "stream_name": "52448",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52448_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 23:32:41",
-            "updated_at": "2026-09-26 23:32:41",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52447/720p/chunks.m3u8?is_vip=false&token=1790551961-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-1df89532767bcd805c2e267aa4b60dfe"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 80055,
-        "sport": "Ice Hockey",
-        "league": "NHL",
-        "match": "Vancouver Canucks vs Seattle Kraken",
-        "status": "P1",
-        "score": "vs",
-        "home_team": "Vancouver Canucks",
-        "away_team": "Seattle Kraken",
-        "home_logo": "https://media.api-sports.io/hockey/teams/701.png",
-        "away_logo": "https://media.api-sports.io/hockey/teams/1436.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-        "spain_time": "2026-09-27 01:00:00 CEST",
-        "start_unix": 1790463600,
-        "is_live": true,
-        "matched_keyword": "nhl",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "52445",
-            "stream_name": "52445",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52445_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 23:32:43",
-            "updated_at": "2026-09-26 23:32:43"
-          },
-          {
-            "id": "",
-            "chanel_id": "52445",
-            "stream_name": "52445",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52445_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 23:32:43",
-            "updated_at": "2026-09-26 23:32:43",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52445/720p/chunks.m3u8?is_vip=false&token=1790551964-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ff3ae5532cd3acf3d0b475d7006cf316"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 80057,
-        "sport": "Ice Hockey",
-        "league": "NHL",
-        "match": "Edmonton Oilers vs Calgary Flames",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Edmonton Oilers",
-        "away_team": "Calgary Flames",
-        "home_logo": "https://media.api-sports.io/hockey/teams/683.png",
-        "away_logo": "https://media.api-sports.io/hockey/teams/675.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
-        "spain_time": "2026-09-27 03:00:00 CEST",
-        "start_unix": 1790470800,
-        "is_live": false,
-        "matched_keyword": "nhl",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "52451",
-            "stream_name": "52451",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52451_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 01:03:57",
-            "updated_at": "2026-09-26 01:03:57"
-          },
-          {
-            "id": "",
-            "chanel_id": "52451",
-            "stream_name": "52451",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52451_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 01:03:57",
-            "updated_at": "2026-09-26 01:03:57"
+            "created_at": "2026-09-27 01:47:46",
+            "updated_at": "2026-09-27 01:47:46",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52448/720p/chunks.m3u8?is_vip=false&token=1790560066-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-4952189e8dbabecda71a85c51e314674"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1323,7 +1045,7 @@
         "sport": "Ice Hockey",
         "league": "NHL",
         "match": "Vegas Golden Knights vs San Jose Sharks",
-        "status": "UPCOMING",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "Vegas Golden Knights",
         "away_team": "San Jose Sharks",
@@ -1332,33 +1054,34 @@
         "league_logo": "https://rs.maycdn.com/fixture/leagues/ah/57.png",
         "spain_time": "2026-09-27 04:00:00 CEST",
         "start_unix": 1790474400,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "nhl",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "52452",
-            "stream_name": "52452",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52452_abr.m3u8",
+            "chanel_id": "52449",
+            "stream_name": "52449",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52449_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 02:03:45",
-            "updated_at": "2026-09-26 02:03:45"
+            "created_at": "2026-09-27 01:47:48",
+            "updated_at": "2026-09-27 01:47:48"
           },
           {
             "id": "",
-            "chanel_id": "52452",
-            "stream_name": "52452",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52452_abr.m3u8",
+            "chanel_id": "52449",
+            "stream_name": "52449",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52449_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 02:03:45",
-            "updated_at": "2026-09-26 02:03:45"
+            "created_at": "2026-09-27 01:47:48",
+            "updated_at": "2026-09-27 01:47:48",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52449/720p/chunks.m3u8?is_vip=false&token=1790560069-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2fb0b575cef6733c83133139711a703b"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1367,58 +1090,11 @@
     ],
     "MMA › UFC FIGHT NIGHT": [
       {
-        "id": 70037,
-        "sport": "MMA",
-        "league": "UFC FIGHT NIGHT",
-        "match": "PRELIMS",
-        "status": "LIVE",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-26 23:00:00 CEST",
-        "start_unix": 1790456400,
-        "is_live": true,
-        "matched_keyword": "ufc",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "498587",
-            "stream_name": "498587",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/498587_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 23:33:00",
-            "updated_at": "2026-09-26 23:33:00"
-          },
-          {
-            "id": "",
-            "chanel_id": "498587",
-            "stream_name": "498587",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/498587_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 23:33:00",
-            "updated_at": "2026-09-26 23:33:00",
-            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/498587/720p/chunks.m3u8?is_vip=false&token=1790551981-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e4fdebba3532236d0669a30f5558ed62"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
         "id": 70038,
         "sport": "MMA",
         "league": "UFC FIGHT NIGHT",
-        "match": "ROSAS JR. vs BARCELOS",
-        "status": "UPCOMING",
+        "match": "ROSAS JR vs BARCELOS",
+        "status": "LIVE",
         "score": "vs",
         "home_team": "",
         "away_team": "",
@@ -1427,33 +1103,308 @@
         "league_logo": "",
         "spain_time": "2026-09-27 02:00:00 CEST",
         "start_unix": 1790467200,
-        "is_live": false,
+        "is_live": true,
         "matched_keyword": "ufc",
         "stream_count": 2,
         "streams": [
           {
             "id": "",
-            "chanel_id": "498587",
-            "stream_name": "498587",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/498587_abr.m3u8",
+            "chanel_id": "262820",
+            "stream_name": "262820",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/262820_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 1,
-            "created_at": "2026-09-26 00:04:37",
-            "updated_at": "2026-09-26 00:04:37"
+            "created_at": "2026-09-27 01:47:55",
+            "updated_at": "2026-09-27 01:47:55"
           },
           {
             "id": "",
-            "chanel_id": "498587",
-            "stream_name": "498587",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/498587_abr.m3u8",
+            "chanel_id": "262820",
+            "stream_name": "262820",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/262820_abr.m3u8",
             "extra_title": "",
             "vip_only": 0,
             "display_name": "FHD",
             "sort": 2,
-            "created_at": "2026-09-26 00:04:37",
-            "updated_at": "2026-09-26 00:04:37"
+            "created_at": "2026-09-27 01:47:55",
+            "updated_at": "2026-09-27 01:47:55",
+            "videoURL": "https://livecdn-tc-iptv.rumsport10.live/live_abr/262820/720p/chunks.m3u8?is_vip=false&token=1790560076-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-7b6ec794f38a13df031362fdea408b56"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Football › Liga MX Femenil": [
+      {
+        "id": 67376,
+        "sport": "Football",
+        "league": "Liga MX Femenil",
+        "match": "Juárez W vs Tijuana W",
+        "status": "1H",
+        "score": "vs",
+        "home_team": "Juárez W",
+        "away_team": "Tijuana W",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/14869.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/14872.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/673.png",
+        "spain_time": "2026-09-27 03:06:00 CEST",
+        "start_unix": 1790471160,
+        "is_live": true,
+        "matched_keyword": "liga mx",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-27 01:48:35",
+            "updated_at": "2026-09-27 01:48:35"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-27 01:48:35",
+            "updated_at": "2026-09-27 01:48:35",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0/chunks.m3u8?is_vip=false&token=1790560115-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-217664fcad431ef22ac698639a83a8c8"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-27 01:48:35",
+            "updated_at": "2026-09-27 01:48:35"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-27 01:48:35",
+            "updated_at": "2026-09-27 01:48:35",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0-hd/chunks.m3u8?is_vip=false&token=1790560116-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-46a0557592243bd1ea1768fc8250dfce"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 67472,
+        "sport": "Football",
+        "league": "Liga MX Femenil",
+        "match": "Puebla W vs Monterrey W",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "Puebla W",
+        "away_team": "Monterrey W",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/14882.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/14879.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/673.png",
+        "spain_time": "2026-09-27 20:00:00 CEST",
+        "start_unix": 1790532000,
+        "is_live": false,
+        "matched_keyword": "liga mx",
+        "stream_count": 2,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a999283018287f1cead520e/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-26 19:04:21",
+            "updated_at": "2026-09-26 19:04:21"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a999283018287f1cead520e/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-26 19:04:21",
+            "updated_at": "2026-09-26 19:04:21"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 68275,
+        "sport": "Football",
+        "league": "Liga MX Femenil",
+        "match": "Tigres UANL W vs Atlético San Luis W",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "Tigres UANL W",
+        "away_team": "Atlético San Luis W",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/14884.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/14874.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/673.png",
+        "spain_time": "2026-09-28 02:06:00 CEST",
+        "start_unix": 1790553960,
+        "is_live": false,
+        "matched_keyword": "liga mx",
+        "stream_count": 2,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a999283018287f1cead5243/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-27 01:04:22",
+            "updated_at": "2026-09-27 01:04:22"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a999283018287f1cead5243/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-27 01:04:22",
+            "updated_at": "2026-09-27 01:04:22"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Cricket › Major League Soccer": [
+      {
+        "id": 46254,
+        "sport": "Cricket",
+        "league": "Major League Soccer",
+        "match": "Real Salt Lake vs New England Revolution",
+        "status": "1H",
+        "score": "vs",
+        "home_team": "Real Salt Lake",
+        "away_team": "New England Revolution",
+        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1606.png",
+        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1609.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/253.png",
+        "spain_time": "2026-09-27 03:30:00 CEST",
+        "start_unix": 1790472600,
+        "is_live": true,
+        "matched_keyword": "england",
+        "stream_count": 4,
+        "streams": [
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-27 01:48:32",
+            "updated_at": "2026-09-27 01:48:32"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1-hd/index.m3u8",
+            "display_name": "GHD",
+            "line": "global",
+            "created_at": "2026-09-27 01:48:32",
+            "updated_at": "2026-09-27 01:48:32",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1-hd/chunks.m3u8?is_vip=false&token=1790560119-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0b3fe713cdb91067b8adadd0d11fdddc"
+          },
+          {
+            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-27 01:48:32",
+            "updated_at": "2026-09-27 01:48:32"
+          },
+          {
+            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1/index.m3u8",
+            "display_name": "WHD",
+            "line": "web",
+            "created_at": "2026-09-27 01:48:32",
+            "updated_at": "2026-09-27 01:48:32",
+            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1/chunks.m3u8?is_vip=false&token=1790560119-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-e6b0538e45989677b31e802e67081d3f"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      }
+    ],
+    "Rugby › Super Rugby AUS": [
+      {
+        "id": 70048,
+        "sport": "Rugby",
+        "league": "Super Rugby AUS",
+        "match": "Waratahs vs Force",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "",
+        "away_team": "",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-27 04:45:00 CEST",
+        "start_unix": 1790477100,
+        "is_live": false,
+        "matched_keyword": "super rugby",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "143071",
+            "stream_name": "143071",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/143071_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-26 02:48:01",
+            "updated_at": "2026-09-26 02:48:01"
+          },
+          {
+            "id": "",
+            "chanel_id": "143071",
+            "stream_name": "143071",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143071_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-26 02:48:01",
+            "updated_at": "2026-09-26 02:48:01"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 70049,
+        "sport": "Rugby",
+        "league": "Super Rugby AUS",
+        "match": "Brumbies vs Reds",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "",
+        "away_team": "",
+        "home_logo": "",
+        "away_logo": "",
+        "league_logo": "",
+        "spain_time": "2026-09-27 06:30:00 CEST",
+        "start_unix": 1790483400,
+        "is_live": false,
+        "matched_keyword": "super rugby",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "143070",
+            "stream_name": "143070",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/143070_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-26 04:32:48",
+            "updated_at": "2026-09-26 04:32:48"
+          },
+          {
+            "id": "",
+            "chanel_id": "143070",
+            "stream_name": "143070",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-26 04:32:48",
+            "updated_at": "2026-09-26 04:32:48"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -1461,110 +1412,6 @@
       }
     ],
     "Football › Liga MX": [
-      {
-        "id": 66595,
-        "sport": "Football",
-        "league": "Liga MX",
-        "match": "Cruz Azul vs Toluca",
-        "status": "1H",
-        "score": "vs",
-        "home_team": "Cruz Azul",
-        "away_team": "Toluca",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/2295.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/2281.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/262.png",
-        "spain_time": "2026-09-27 00:50:00 CEST",
-        "start_unix": 1790463000,
-        "is_live": true,
-        "matched_keyword": "liga mx",
-        "stream_count": 4,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b9/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 23:33:17",
-            "updated_at": "2026-09-26 23:33:17"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b9/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 23:33:17",
-            "updated_at": "2026-09-26 23:33:17",
-            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b9/chunks.m3u8?is_vip=false&token=1790551997-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-29a8423a9999c648436a8e2077a7a782"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b9-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 23:33:17",
-            "updated_at": "2026-09-26 23:33:17"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b9-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 23:33:17",
-            "updated_at": "2026-09-26 23:33:17",
-            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b9-hd/chunks.m3u8?is_vip=false&token=1790551998-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b840410b6df28491cf3d524508f0709a"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 66600,
-        "sport": "Football",
-        "league": "Liga MX",
-        "match": "Guadalajara Chivas vs Club Queretaro",
-        "status": "1H",
-        "score": "vs",
-        "home_team": "Guadalajara Chivas",
-        "away_team": "Club Queretaro",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/2278.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/2290.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/262.png",
-        "spain_time": "2026-09-27 01:07:00 CEST",
-        "start_unix": 1790464020,
-        "is_live": true,
-        "matched_keyword": "liga mx",
-        "stream_count": 4,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e49b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 23:33:55",
-            "updated_at": "2026-09-26 23:33:55"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e49b/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 23:33:55",
-            "updated_at": "2026-09-26 23:33:55",
-            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e49b/chunks.m3u8?is_vip=false&token=1790552035-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c138b4e3389275d36baf9ebb57627ebe"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e49b-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 23:33:55",
-            "updated_at": "2026-09-26 23:33:55"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e49b-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 23:33:55",
-            "updated_at": "2026-09-26 23:33:55",
-            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e49b-hd/chunks.m3u8?is_vip=false&token=1790552036-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c5efc8e121f4e7ae489a1183419d2956"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
       {
         "id": 67373,
         "sport": "Football",
@@ -1682,279 +1529,6 @@
             "line": "web",
             "created_at": "2026-09-26 19:04:20",
             "updated_at": "2026-09-26 19:04:20"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Football › Canadian Premier League": [
-      {
-        "id": 66594,
-        "sport": "Football",
-        "league": "Canadian Premier League",
-        "match": "Vancouver FC vs Forge",
-        "status": "1H",
-        "score": "vs",
-        "home_team": "Vancouver FC",
-        "away_team": "Forge",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/20881.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/3830.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/479.png",
-        "spain_time": "2026-09-27 01:00:00 CEST",
-        "start_unix": 1790463600,
-        "is_live": true,
-        "matched_keyword": "premier league",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e490/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 23:33:35",
-            "updated_at": "2026-09-26 23:33:35"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e490/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 23:33:35",
-            "updated_at": "2026-09-26 23:33:35",
-            "videoURL": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e490/chunks.m3u8?is_vip=false&token=1790552015-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-799d424f0d5f12dfffb11d4b9ba5822e"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Football › Liga MX Femenil": [
-      {
-        "id": 67376,
-        "sport": "Football",
-        "league": "Liga MX Femenil",
-        "match": "Juárez W vs Tijuana W",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Juárez W",
-        "away_team": "Tijuana W",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/14869.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/14872.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/673.png",
-        "spain_time": "2026-09-27 03:06:00 CEST",
-        "start_unix": 1790471160,
-        "is_live": false,
-        "matched_keyword": "liga mx",
-        "stream_count": 4,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b0/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 67472,
-        "sport": "Football",
-        "league": "Liga MX Femenil",
-        "match": "Puebla W vs Monterrey W",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Puebla W",
-        "away_team": "Monterrey W",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/14882.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/14879.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/673.png",
-        "spain_time": "2026-09-27 20:00:00 CEST",
-        "start_unix": 1790532000,
-        "is_live": false,
-        "matched_keyword": "liga mx",
-        "stream_count": 2,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a999283018287f1cead520e/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 19:04:21",
-            "updated_at": "2026-09-26 19:04:21"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a999283018287f1cead520e/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 19:04:21",
-            "updated_at": "2026-09-26 19:04:21"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Cricket › Major League Soccer": [
-      {
-        "id": 46254,
-        "sport": "Cricket",
-        "league": "Major League Soccer",
-        "match": "Real Salt Lake vs New England Revolution",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "Real Salt Lake",
-        "away_team": "New England Revolution",
-        "home_logo": "https://rs.maycdn.com/fixture/teams/af/1606.png",
-        "away_logo": "https://rs.maycdn.com/fixture/teams/af/1609.png",
-        "league_logo": "https://rs.maycdn.com/fixture/leagues/af/253.png",
-        "spain_time": "2026-09-27 03:30:00 CEST",
-        "start_unix": 1790472600,
-        "is_live": false,
-        "matched_keyword": "england",
-        "stream_count": 4,
-        "streams": [
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1-hd/index.m3u8",
-            "display_name": "GHD",
-            "line": "global",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          },
-          {
-            "stream_link": "https://livecdn-bp-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          },
-          {
-            "stream_link": "https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841275d79ffdae2c3e4b1/index.m3u8",
-            "display_name": "WHD",
-            "line": "web",
-            "created_at": "2026-09-26 02:03:57",
-            "updated_at": "2026-09-26 02:03:57"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      }
-    ],
-    "Rugby › Super Rugby AUS": [
-      {
-        "id": 70048,
-        "sport": "Rugby",
-        "league": "Super Rugby AUS",
-        "match": "Waratahs vs Force",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-27 04:45:00 CEST",
-        "start_unix": 1790477100,
-        "is_live": false,
-        "matched_keyword": "super rugby",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "143071",
-            "stream_name": "143071",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/143071_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 02:48:01",
-            "updated_at": "2026-09-26 02:48:01"
-          },
-          {
-            "id": "",
-            "chanel_id": "143071",
-            "stream_name": "143071",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143071_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 02:48:01",
-            "updated_at": "2026-09-26 02:48:01"
-          }
-        ],
-        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
-        "referer": "https://iframe.rumsport8.live"
-      },
-      {
-        "id": 70049,
-        "sport": "Rugby",
-        "league": "Super Rugby AUS",
-        "match": "Brumbies vs Reds",
-        "status": "UPCOMING",
-        "score": "vs",
-        "home_team": "",
-        "away_team": "",
-        "home_logo": "",
-        "away_logo": "",
-        "league_logo": "",
-        "spain_time": "2026-09-27 06:30:00 CEST",
-        "start_unix": 1790483400,
-        "is_live": false,
-        "matched_keyword": "super rugby",
-        "stream_count": 2,
-        "streams": [
-          {
-            "id": "",
-            "chanel_id": "143070",
-            "stream_name": "143070",
-            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/143070_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 1,
-            "created_at": "2026-09-26 04:32:48",
-            "updated_at": "2026-09-26 04:32:48"
-          },
-          {
-            "id": "",
-            "chanel_id": "143070",
-            "stream_name": "143070",
-            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/143070_abr.m3u8",
-            "extra_title": "",
-            "vip_only": 0,
-            "display_name": "FHD",
-            "sort": 2,
-            "created_at": "2026-09-26 04:32:48",
-            "updated_at": "2026-09-26 04:32:48"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
@@ -2605,6 +2179,52 @@
             "sort": 2,
             "created_at": "2026-09-26 20:34:00",
             "updated_at": "2026-09-26 20:34:00"
+          }
+        ],
+        "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
+        "referer": "https://iframe.rumsport8.live"
+      },
+      {
+        "id": 79795,
+        "sport": "American Football",
+        "league": "NFL",
+        "match": "Denver Broncos vs Los Angeles Rams",
+        "status": "UPCOMING",
+        "score": "vs",
+        "home_team": "Denver Broncos",
+        "away_team": "Los Angeles Rams",
+        "home_logo": "https://media.api-sports.io/american-football/teams/28.png",
+        "away_logo": "https://media.api-sports.io/american-football/teams/31.png",
+        "league_logo": "https://rs.maycdn.com/fixture/leagues/an/1.png",
+        "spain_time": "2026-09-28 02:20:00 CEST",
+        "start_unix": 1790554800,
+        "is_live": false,
+        "matched_keyword": "nfl",
+        "stream_count": 2,
+        "streams": [
+          {
+            "id": "",
+            "chanel_id": "52468",
+            "stream_name": "52468",
+            "stream_link": "https://livecdn-bp-iptv.rumsport10.live/live_abr/52468_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 1,
+            "created_at": "2026-09-27 00:34:59",
+            "updated_at": "2026-09-27 00:34:59"
+          },
+          {
+            "id": "",
+            "chanel_id": "52468",
+            "stream_name": "52468",
+            "stream_link": "https://livecdn-tc-iptv.rumsport10.live/live_abr/52468_abr.m3u8",
+            "extra_title": "",
+            "vip_only": 0,
+            "display_name": "FHD",
+            "sort": 2,
+            "created_at": "2026-09-27 00:34:59",
+            "updated_at": "2026-09-27 00:34:59"
           }
         ],
         "cdn_domain": "https://iframe.rumsport8.live/stream.m3u8",
